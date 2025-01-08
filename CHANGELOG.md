@@ -1,5 +1,1879 @@
 # Changelog
 
+## 2024.12.100 (16 December 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Return type of generated docstrings is Any when it should not be [pylance-release#6745](https://github.com/microsoft/pylance-release/issues/6745)
+-   Bug fix: Generated docstrings return type could be narrowed [pylance-release#6704](https://github.com/microsoft/pylance-release/issues/6704)
+-   Bug fix: Make pass through settings descriptions to adopt inline code [pylance-release#6757](https://github.com/microsoft/pylance-release/issues/6757)
+-   Enhancement: Support go-to-implementation [pylance-release#4329](https://github.com/microsoft/pylance-release/issues/4329)
+
+Pylance's copy of Pyright has been updated from 1.1.389 to 1.1.390.
+
+-   See Pyright's release notes for details: [1.1.390](https://github.com/microsoft/pyright/releases/tag/1.1.390)
+
+## 2024.12.1 (5 December 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.11.102](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#202411102-26-november-2024-prerelease) prerelease build.
+
+## 2024.11.102 (26 November 2024) PreRelease
+
+Notable changes:
+
+-   Enhancement: Updated pandas stubs
+
+## 2024.11.101 (19 November 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Generated docstring does not include `:rtype` when return type annotation is present [pylance-release#6470](https://github.com/microsoft/pylance-release/issues/6470)
+-   Bug fix: `inlineChat.viewInChat` command from notebook will cause pylance to crash [pylance-release#6454](https://github.com/microsoft/pylance-release/issues/6454)
+-   Enhancement: Offer different pylance modes to enable light vs full IntelliSense experience [pylance-release#5434](https://github.com/microsoft/pylance-release/issues/5434)
+
+Pylance's copy of Pyright has been updated from 1.1.388 to 1.1.389.
+
+-   See Pyright's release notes for details: [1.1.389](https://github.com/microsoft/pyright/releases/tag/1.1.389)
+
+## 2024.11.100 (6 November 2024) PreRelease
+
+Notable changes:
+
+-   Enhancement: Docstring templating [pylance-release#5944](https://github.com/microsoft/pylance-release/issues/5944)
+-   Enhancement: Remove return type from **init** override member completion [pylance-release#5367](https://github.com/microsoft/pylance-release/issues/5367)
+-   Enhancement: semantic highlight and hints for a TypedDict's get function. [pylance-release#4098](https://github.com/microsoft/pylance-release/issues/4098)
+
+Pylance's copy of Pyright has been updated from 1.1.386 to 1.1.388.
+
+-   See Pyright's release notes for details: [1.1.387](https://github.com/microsoft/pyright/releases/tag/1.1.387), [1.1.388](https://github.com/microsoft/pyright/releases/tag/1.1.388)
+
+## 2024.11.3 (21 November 2024) Release
+
+Notable changes:
+
+-   Bug fix: make sure webpack can import all packages.
+
+## 2024.11.2 (13 November 2024) Release
+
+Notable changes:
+
+-   Bug fix: Remove unicode character class entries in regex's for pylance-server package.
+
+## 2024.11.1 (4 November 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.10.104](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#202410104-31-october-2024-prerelease) prerelease build.
+
+## 2024.10.104 (31 October 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Regression: pre-release fails to parse `pyproject.toml` with comments [pylance-release#6621](https://github.com/microsoft/pylance-release/issues/6621)
+
+## 2024.10.103 (28 October 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Docstring parsing is causing completions to be slow
+
+## 2024.10.102 (24 October 2024) PreRelease
+
+Notable changes:
+
+-   Enhancement: Added "python.analysis.displayEnglishDiagnostics" to disable localized translations of technical error messages or terms [pylance-release#6265](https://github.com/microsoft/pylance-release/issues/6265)
+-   Enhancement: Add a "fold all docstrings" command [pylance-release#4677](https://github.com/microsoft/pylance-release/issues/4677)
+
+Pylance's copy of Pyright has been updated from 1.1.385 to 1.1.386.
+
+-   See Pyright's release notes for details: [1.1.386](https://github.com/microsoft/pyright/releases/tag/1.1.386)
+
+## 2024.10.101 (17 October 2024) PreRelease
+
+Notable changes:
+
+Pylance's copy of Pyright has been updated from 1.1.384 to 1.1.385.
+
+-   See Pyright's release notes for details: [1.1.385](https://github.com/microsoft/pyright/releases/tag/1.1.385)
+
+## 2024.10.100 (10 October 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Multiline parameter docstrings are truncated when parsed [pylance-release#6524](https://github.com/microsoft/pylance-release/issues/6524)
+-   Bug fix: python.analysis.typeEvaluation.xxx is not marked in `settings.json` when `pyrightconfig.json` exists [pylance-release#6498](https://github.com/microsoft/pylance-release/issues/6498)
+-   Bug fix: Don't show settingsNotOverridable if vscode settings file has a larger scope than the current project [pylance-release#6428](https://github.com/microsoft/pylance-release/issues/6428)
+-   Enhancement: typeCheckingMode button only toggles between `off` and `basic` [pylance-release#6080](https://github.com/microsoft/pylance-release/issues/6080)
+-   Bug fix: Dataclass fields that use `converter` don't have expected semantic tokens [pylance-release#6525](https://github.com/microsoft/pylance-release/issues/6525)
+
+Pylance's copy of Pyright has been updated from 1.1.382 to 1.1.384.
+
+-   See Pyright's release notes for details: [1.1.383](https://github.com/microsoft/pyright/releases/tag/1.1.383), [1.1.384](https://github.com/microsoft/pyright/releases/tag/1.1.384)
+
+## 2024.10.1 (7 October 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.9.104](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20249104-3-october-2024-prerelease) prerelease build.
+
+## 2024.9.104 (3 October 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Crash telemetry fix
+
+## 2024.9.103 (2 October 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: pylance crash when notebook is opened while interactive window is opened. [pylance-release#6502](https://github.com/microsoft/pylance-release/issues/6502)
+-   Bug fix: File analysis runs indefinitely after upgrading to v2024.9.1 [pylance-release#6386](https://github.com/microsoft/pylance-release/issues/6386)
+-   Bug fix: pylance can't restart: Error: LanguageStatusItem with id 'python.analysis.typeCheckingMode' ALREADY exists [pylance-release#6378](https://github.com/microsoft/pylance-release/issues/6378)
+
+## 2024.9.102 (26 September 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Generic type aliases show two inlay hints [pylance-release#6427](https://github.com/microsoft/pylance-release/issues/6427)
+-   Bug fix: Pyright/Pylance inconsistency: Unknown import symbol sklearn [pylance-release#6410](https://github.com/microsoft/pylance-release/issues/6410)
+-   Enhancement: Importing from tests prefers deeper imports over package entry-point [pylance-release#5650](https://github.com/microsoft/pylance-release/issues/5650)
+-   Bug fix: Autoimport from module, not directly from file [pylance-release#4065](https://github.com/microsoft/pylance-release/issues/4065)
+-   Enhancement: "Quick Fix" doesn't suggest `__init__.py` imports [pylance-release#5231](https://github.com/microsoft/pylance-release/issues/5231)
+
+Pylance's copy of Pyright has been updated from 1.1.381 to 1.1.382.
+
+-   See Pyright's release notes for details: [1.1.382](https://github.com/microsoft/pyright/releases/tag/1.1.382)
+
+## 2024.9.101 (18 September 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: `NoReturn` behaving unexpectedly after using the decorator with added type annotation [pylance-release#6391](https://github.com/microsoft/pylance-release/issues/6391)
+-   Bug fix: Recent pylance is striking out `Union` imports as deprecated [pylance-release#6390](https://github.com/microsoft/pylance-release/issues/6390)
+
+Pylance's copy of Pyright has been updated from 1.1.380 to 1.1.381.
+
+-   See Pyright's release notes for details: [1.1.381](https://github.com/microsoft/pyright/releases/tag/1.1.381)
+
+## 2024.9.100 (12 September 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance crashes when using the interactive window [pylance-release#6357](https://github.com/microsoft/pylance-release/issues/6357)
+-   Bug fix: No Syntax Highlighting on v2024.14.0 [pylance-release#6358](https://github.com/microsoft/pylance-release/issues/6358)
+-   Enhancement: Goto def on inlay hints doesn't distinguish sub types [pylance-release#6346](https://github.com/microsoft/pylance-release/issues/6346)
+-   Bug fix: Warnings are not shown for non-overridable settings when a config file is present in a multi-root workspace scenario [pylance-release#6338](https://github.com/microsoft/pylance-release/issues/6338)
+-   Bug fix: Pylance with a multi-root workspace [pylance-release#6318](https://github.com/microsoft/pylance-release/issues/6318)
+-   Bug fix: Some localized strings have over-localized Python keywords [pylance-release#6035](https://github.com/microsoft/pylance-release/issues/6035)
+-   Bug fix: Pylance slows down when using the vulkan library [pylance-release#6351](https://github.com/microsoft/pylance-release/issues/6351)
+
+Pylance's copy of Pyright has been updated from 1.1.378 to 1.1.380.
+
+-   See Pyright's release notes for details: [1.1.379](https://github.com/microsoft/pyright/releases/tag/1.1.379), [1.1.380](https://github.com/microsoft/pyright/releases/tag/1.1.380)
+
+## 2024.9.2 (20 September 2024) Release
+
+Notable changes:
+
+-   Bug fix: Pylance crashes when using the interactive window [pylance-release#6357](https://github.com/microsoft/pylance-release/issues/6357)
+
+## 2024.9.1 (9 September 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.8.104](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20248104-28-august-2024-prerelease) prerelease build.
+
+## 2024.8.104 (28 August 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: "python.analysis.diagnosticMode" should be allowed even when "pyproject.toml" exists [pylance-release#6314](https://github.com/microsoft/pylance-release/issues/6314)
+
+Pylance's copy of Pyright has been updated from 1.1.377 to 1.1.378.
+
+-   See Pyright's release notes for details: [1.1.378](https://github.com/microsoft/pyright/releases/tag/1.1.378)
+
+## 2024.8.103 (27 August 2024) PreRelease
+
+Functionally identical to 2024.8.102.
+
+## 2024.8.102 (27 August 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Error thrown from py lang server from a jupyter notebook on insiders.vscode.dev [pylance-release#6307](https://github.com/microsoft/pylance-release/issues/6307)
+-   Bug fix: Pylance's auto-completion does not work properly in Jupyter [pylance-release#6294](https://github.com/microsoft/pylance-release/issues/6294)
+-   Bug fix: Tooltip not being rendered with python.analysis.supportRestructuredText turned on. [pylance-release#6284](https://github.com/microsoft/pylance-release/issues/6284)
+-   Bug fix: pylance crashing with cannot read properties of undefined (wsl) [pylance-release#6263](https://github.com/microsoft/pylance-release/issues/6263)
+
+Pylance's copy of Pyright has been updated from 1.1.375 to 1.1.377.
+
+-   See Pyright's release notes for details: [1.1.376](https://github.com/microsoft/pyright/releases/tag/1.1.376), [1.1.377](https://github.com/microsoft/pyright/releases/tag/1.1.377)
+
+## 2024.8.101 (12 August 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance ins`t accessing fixture from main conftest [pylance-release#6249](https://github.com/microsoft/pylance-release/issues/6249)
+-   Bug fix: Notification of breaking api change with v1.92 release of VS Code [pylance-release#6115](https://github.com/microsoft/pylance-release/issues/6115)
+-   Enhancement: Feature request: Support 'go to def' and interacting with inlay hint components [pylance-release#5210](https://github.com/microsoft/pylance-release/issues/5210)
+-   Bug fix: TypeError: Cannot read properties of undefined (reading 'fileInfo') [pylance-release#6234](https://github.com/microsoft/pylance-release/issues/6234)
+
+## 2024.8.100 (9 August 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Failed to parse (some) docstrings that contain Markdown code since 2024.6.100 [pylance-release#6225](https://github.com/microsoft/pylance-release/issues/6225)
+-   Bug fix: Sphinx Style Docstring Incorrectly Rendering Nested Parameters Lists [pylance-release#6224](https://github.com/microsoft/pylance-release/issues/6224)
+-   Bug fix: Inline suggestions not working if bracket not closed [pylance-release#6188](https://github.com/microsoft/pylance-release/issues/6188)
+
+Pylance's copy of Pyright has been updated from 1.1.373 to 1.1.375.
+
+-   See Pyright's release notes for details: [1.1.374](https://github.com/microsoft/pyright/releases/tag/1.1.374), [1.1.375](https://github.com/microsoft/pyright/releases/tag/1.1.375)
+
+## 2024.8.2 (26 August 2024) Release
+
+Notable changes:
+
+-   Bug fix: TypeError: Cannot read properties of undefined (reading 'fileInfo') [pylance-release#6234](https://github.com/microsoft/pylance-release/issues/6234)
+
+## 2024.8.1 (5 August 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.7.104](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20247104-31-july-2024-prerelease) prerelease build.
+
+## 2024.7.104 (31 July 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance reports false errors then crashes [pylance-release#6178](https://github.com/microsoft/pylance-release/issues/6178)
+
+## 2024.7.103 (29 July 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Highlighting fails after switching between monorepo projects (when switching python interpreters) [pylance-release#5995](https://github.com/microsoft/pylance-release/issues/5995)
+
+Pylance's copy of Pyright has been updated from 1.1.372 to 1.1.373.
+
+-   See Pyright's release notes for details: [1.1.373](https://github.com/microsoft/pyright/releases/tag/1.1.373)
+
+## 2024.7.102 (24 July 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pressing X on pylance has crashed notification should be treated as a `No` [pylance-release#6156](https://github.com/microsoft/pylance-release/issues/6156)
+-   Enhancement: Provide a way to disable unreachability hints [pylance-release#6106](https://github.com/microsoft/pylance-release/issues/6106)
+
+## 2024.7.101 (22 July 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Asyncio.TaskGroup doc string causes parsing error [pylance-release#6143](https://github.com/microsoft/pylance-release/issues/6143)
+-   Bug fix: Incorrect Rendering of Google Style Docstrings in Pylance [pylance-release#6127](https://github.com/microsoft/pylance-release/issues/6127)
+-   Bug fix: Sphinx Style Docstring Incorrectly Rendering "Other Parameters" [pylance-release#6100](https://github.com/microsoft/pylance-release/issues/6100)
+
+Pylance's copy of Pyright has been updated from 1.1.369 to 1.1.372.
+
+-   See Pyright's release notes for details: [1.1.370](https://github.com/microsoft/pyright/releases/tag/1.1.370), [1.1.371](https://github.com/microsoft/pyright/releases/tag/1.1.371), [1.1.372](https://github.com/microsoft/pyright/releases/tag/1.1.372)
+
+## 2024.7.100 (15 July 2024) PreRelease
+
+Notable changes:
+
+-   Enhancement: don't show code actions that are not supported in virtual workspace [pylance-release#6090](https://github.com/microsoft/pylance-release/issues/6090)
+-   Bug fix: too many notifications when pylance crashes [pylance-release#6056](https://github.com/microsoft/pylance-release/issues/6056)
+-   Bug fix: pylance crash: Allocation failed - JavaScript heap out of memory [pylance-release#5925](https://github.com/microsoft/pylance-release/issues/5925)
+-   Bug fix: Quick fix suggests importing symbol that is not available in `pythonVersion` [pylance-release#4993](https://github.com/microsoft/pylance-release/issues/4993)
+-   Bug fix: Intellisense still not fully working with Enum classes [pylance-release#4928](https://github.com/microsoft/pylance-release/issues/4928)
+
+## 2024.7.1 (8 July 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.6.104](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20246104-3-july-2024-prerelease) prerelease build.
+
+## 2024.6.104 (3 July 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: `reportShadowedImports` diagnostic missing in `codeaction.py` test file [pylance-release#6087](https://github.com/microsoft/pylance-release/issues/6087)
+-   Bug fix: Create stub is missing as a code action [pylance-release#6085](https://github.com/microsoft/pylance-release/issues/6085)
+
+## 2024.6.103 (1 July 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Having a pyproject.toml will break diagnosticSeverityOverrides in settings.json [pylance-release#6052](https://github.com/microsoft/pylance-release/issues/6052)
+-   Bug fix: [Slow performance] Pylance goes crazy after switching git branch [pylance-release#6046](https://github.com/microsoft/pylance-release/issues/6046)
+
+## 2024.6.102 (25 June 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Bokeh export_png docstring is not formatted correctly [pylance-release#6039](https://github.com/microsoft/pylance-release/issues/6039)
+-   Enhancement: Support lazy loading individual virtualenvs in a multi-root workspace [pylance-release#6009](https://github.com/microsoft/pylance-release/issues/6009)
+-   Bug fix: Multiple notifications "executing command" but no details on what is being run [pylance-release#6048](https://github.com/microsoft/pylance-release/issues/6048)
+-   Bug fix: Bug: Code is unreachable [pylance-release#6028](https://github.com/microsoft/pylance-release/issues/6028)
+-   Bug fix: The parseTreeUtils.findNodeByOffset function returns an incorrect node when using binary search [pylance-release#5775](https://github.com/microsoft/pylance-release/issues/5775)
+
+Pylance's copy of Pyright has been updated from 1.1.368 to 1.1.369.
+
+-   See Pyright's release notes for details: [1.1.369](https://github.com/microsoft/pyright/releases/tag/1.1.369)
+
+## 2024.6.101 (20 June 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Signature help isn't formatted beautifully when class docstring is reused for `__init__` [pylance-release#6012](https://github.com/microsoft/pylance-release/issues/6012)
+-   Bug fix: notebook cells sometimes get cycle. [pylance-release#5798](https://github.com/microsoft/pylance-release/issues/5798)
+-   Enhancement: Pylance should auto-import from files marked with `_` too [pylance-release#5294](https://github.com/microsoft/pylance-release/issues/5294)
+
+Pylance's copy of Pyright has been updated from 1.1.367 to 1.1.368.
+
+-   See Pyright's release notes for details: [1.1.368](https://github.com/microsoft/pyright/releases/tag/1.1.368)
+
+## 2024.6.100 (13 June 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Support sphinx doc strings [pylance-release#5975](https://github.com/microsoft/pylance-release/issues/5975)
+-   Bug fix: Variable inlay type hints not displaying [pylance-release#5967](https://github.com/microsoft/pylance-release/issues/5967)
+-   Bug fix: Pylance failed to start service instance, caused by a regexp error [pylance-release#5963](https://github.com/microsoft/pylance-release/issues/5963)
+-   Bug fix: Docstring rendering doesn't handle indentation [pylance-release#5446](https://github.com/microsoft/pylance-release/issues/5446)
+-   Enhancement: Please transform NumpyDoc/ RestructuredText docstrings to nice tooltips to support useful docstrings across VS Code, Jupyter and Sphinx [pylance-release#5363](https://github.com/microsoft/pylance-release/issues/5363)
+-   Bug fix: docstring: Regarding Korean line spacing problem [pylance-release#4615](https://github.com/microsoft/pylance-release/issues/4615)
+-   Bug fix: Google docstring formatting for multi-line class attributes not recognized/converted properly for use in intellisense popup [pylance-release#3347](https://github.com/microsoft/pylance-release/issues/3347)
+-   Bug fix: `itertools.count` docstring is not shown correctly [pylance-release#3231](https://github.com/microsoft/pylance-release/issues/3231)
+-   Bug fix: missing new line from dict() help mouse hover [pylance-release#3118](https://github.com/microsoft/pylance-release/issues/3118)
+-   Bug fix: Intellisense does not show the complete multiline description of function/method parameters [pylance-release#2942](https://github.com/microsoft/pylance-release/issues/2942)
+-   Enhancement: Sphinx Style Docstring Rendering Feature [pylance-release#2251](https://github.com/microsoft/pylance-release/issues/2251)
+-   Bug fix: Slow computer -> "Expected 0 positional arguments" [pylance-release#4295](https://github.com/microsoft/pylance-release/issues/4295)
+-   Bug fix: Doc string for sqlalchemy.column is misformatted [pylance-release#6004](https://github.com/microsoft/pylance-release/issues/6004)
+
+Pylance's copy of Pyright has been updated from 1.1.364 to 1.1.367.
+
+-   See Pyright's release notes for details: [1.1.365](https://github.com/microsoft/pyright/releases/tag/1.1.365), [1.1.366](https://github.com/microsoft/pyright/releases/tag/1.1.366), [1.1.367](https://github.com/microsoft/pyright/releases/tag/1.1.367)
+
+## 2024.6.1 (6 June 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.5.104](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20245104-4-june-2024-prerelease) prerelease build.
+
+## 2024.5.104 (4 June 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: cyclic symbolic detection is broken [pylance-release#5937](https://github.com/microsoft/pylance-release/issues/5937)
+
+## 2024.5.103 (28 May 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: import side by side in standalone file didn't work [pylance-release#5916](https://github.com/microsoft/pylance-release/issues/5916)
+-   Bug fix: Pylance reports import Missing in inexistent file when git enabled [pylance-release#5895](https://github.com/microsoft/pylance-release/issues/5895)
+-   Bug fix: Pylance deletes automatically-added `#` sign when you line break inside a comment [pylance-release#5484](https://github.com/microsoft/pylance-release/issues/5484)
+
+## 2024.5.102 (23 May 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Show Type Hierarchy shows no results for types declared in notebooks [pylance-release#5832](https://github.com/microsoft/pylance-release/issues/5832)
+-   Bug fix: Files to analyze count is wrong for notebooks [pylance-release#5173](https://github.com/microsoft/pylance-release/issues/5173)
+-   Bug fix: Attributes not recognized when using `converters` in `attrs` module [pylance-release#5391](https://github.com/microsoft/pylance-release/issues/5391)
+
+Pylance's copy of Pyright has been updated from 1.1.362 to 1.1.364.
+
+-   See Pyright's release notes for details: [1.1.363](https://github.com/microsoft/pyright/releases/tag/1.1.363), [1.1.364](https://github.com/microsoft/pyright/releases/tag/1.1.364)
+
+## 2024.5.101 (16 May 2024) PreRelease
+
+Notable changes:
+
+-   Enhancement: Added more detail to assertion message to investigate "Check called before parsing" crash [pylance-release#5868](https://github.com/microsoft/pylance-release/issues/5868)
+-   Enhancement: Updated pandas, django and scikit-learn stubs
+
+## 2024.5.100 (9 May 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Don't append "py" on show call hierarchy view when source is a notebook file [pylance-release#5815](https://github.com/microsoft/pylance-release/issues/5815)
+-   Enhancement: Support enabling/disabling auto-indent without restarting Pylance [pylance-release#5778](https://github.com/microsoft/pylance-release/issues/5778)
+-   Enhancement: Add "implement all inherited abstract classes" code action as a quick fix for reportAbstractUsage [pylance-release#5757](https://github.com/microsoft/pylance-release/issues/5757)
+-   Bug fix: create stub file not working [pylance-release#5188](https://github.com/microsoft/pylance-release/issues/5188)
+-   Bug fix: Syntax highlighting color of keywords should remain constant [pylance-release#4845](https://github.com/microsoft/pylance-release/issues/4845)
+-   Bug fix: VS Code + Pylance does not find venv-installed modules while venv is activated [pylance-release#3881](https://github.com/microsoft/pylance-release/issues/3881)
+
+Pylance's copy of Pyright has been updated from 1.1.360 to 1.1.362.
+
+-   See Pyright's release notes for details: [1.1.361](https://github.com/microsoft/pyright/releases/tag/1.1.361), [1.1.362](https://github.com/microsoft/pyright/releases/tag/1.1.362)
+
+## 2024.5.1 (6 May 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.4.106](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20244106-1-may-2024-prerelease) prerelease build.
+
+## 2024.4.106 (1 May 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Telemetry fix for perf investigations
+
+## 2024.4.105 (29 April 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Unresolved import on package that is installed in kernel used in a notebook [pylance-release#5814](https://github.com/microsoft/pylance-release/issues/5814)
+
+## 2024.4.104 (25 April 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: multiple `#type: ignore` shown for 1 line if that line contains multiple errors [pylance-release#5657](https://github.com/microsoft/pylance-release/issues/5657)
+
+Pylance's copy of Pyright has been updated from 1.1.359 to 1.1.360.
+
+-   See Pyright's release notes for details: [1.1.360](https://github.com/microsoft/pyright/releases/tag/1.1.360)
+
+## 2024.4.103 (24 April 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Syntax tokens are not provided for f-strings [pylance-release#5781](https://github.com/microsoft/pylance-release/issues/5781)
+-   Bug fix: Exact match suggestions sometimes not shown for symbol import completions [pylance-release#5764](https://github.com/microsoft/pylance-release/issues/5764)
+-   Enhancement: Provide command to start trace logging without restarting pylance [pylance-release#5724](https://github.com/microsoft/pylance-release/issues/5724)
+
+## 2024.4.102 (17 April 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Should be able to disable auto-indent without setting `formatOnType` to `false` [pylance-release#5592](https://github.com/microsoft/pylance-release/issues/5592)
+
+Pylance's copy of Pyright has been updated from 1.1.358 to 1.1.359.
+
+-   See Pyright's release notes for details: [1.1.359](https://github.com/microsoft/pyright/releases/tag/1.1.359)
+
+## 2024.4.101 (10 April 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Smart indentation is broken in Python [pylance-release#5741](https://github.com/microsoft/pylance-release/issues/5741)
+-   Bug fix: [Feature request] Autocomplete Abstract, Protocol and method override [pylance-release#5362](https://github.com/microsoft/pylance-release/issues/5362)
+-   Bug fix: Python curses module on Windows is never allowed to autocomplete [pylance-release#2763](https://github.com/microsoft/pylance-release/issues/2763)
+
+Pylance's copy of Pyright has been updated from 1.1.357 to 1.1.358.
+
+-   See Pyright's release notes for details: [1.1.358](https://github.com/microsoft/pyright/releases/tag/1.1.358)
+
+## 2024.4.100 (4 April 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: The annotation inserted on double-click of the preview of inferred type does not match, and instead inserts the first imported variable of that type [pylance-release#5693](https://github.com/microsoft/pylance-release/issues/5693)
+-   Bug fix: File System error with Pylance on activate [pylance-release#5686](https://github.com/microsoft/pylance-release/issues/5686)
+-   Bug fix: Conda environment folders are not recognized as virtual environments [pylance-release#5191](https://github.com/microsoft/pylance-release/issues/5191)
+
+Pylance's copy of Pyright has been updated from 1.1.356 to 1.1.357.
+
+-   See Pyright's release notes for details: [1.1.357](https://github.com/microsoft/pyright/releases/tag/1.1.357)
+
+## 2024.4.1 (2 April 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.3.102](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20243102-27-march-2024-prerelease) prerelease build.
+
+## 2024.3.102 (27 March 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Some characters are mistaken for invalid identifiers [pylance-release#5656](https://github.com/microsoft/pylance-release/issues/5656)
+-   Enhancement: Users should be able to tell which `pandas-stubs` we have bundled [pylance-release#5643](https://github.com/microsoft/pylance-release/issues/5643)
+-   Enhancement: Multiline Comment: the 2nd line can be wrongly indented [pylance-release#5488](https://github.com/microsoft/pylance-release/issues/5488)
+-   Bug fix: Extract variable shouldn't work on assignments [pylance-release#5339](https://github.com/microsoft/pylance-release/issues/5339)
+-   Enhancement: Updated pandas stubs
+
+Pylance's copy of Pyright has been updated from 1.1.355 to 1.1.356.
+
+-   See Pyright's release notes for details: [1.1.356](https://github.com/microsoft/pyright/releases/tag/1.1.356)
+
+## 2024.3.101 (21 March 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: `Add #type ignore` code action not offered for some type-related diagnostics [pylance-release#5628](https://github.com/microsoft/pylance-release/issues/5628)
+-   Bug fix: Respect `files.refactoring.autoSave` for move to file [pylance-release#5217](https://github.com/microsoft/pylance-release/issues/5217)
+-   Enhancement: Updated pandas stubs
+-   Enhancement: Added SymPy stubs
+
+Pylance's copy of Pyright has been updated from 1.1.354 to 1.1.355.
+
+-   See Pyright's release notes for details: [1.1.355](https://github.com/microsoft/pyright/releases/tag/1.1.355)
+
+## 2024.3.100 (13 March 2024) PreRelease
+
+Notable changes:
+
+-   Enhancement: Provide profiling command to generate `cpuprofile` (chrome perf profile file) for all worker threads [pylance-release#5590](https://github.com/microsoft/pylance-release/issues/5590)
+-   Bug fix: No documentation for `isalpha` called on `LiteralString` [pylance-release#5566](https://github.com/microsoft/pylance-release/issues/5566)
+-   Bug fix: Regression in 2023.10.41 quick-fix pyright-specific comments [pylance-release#5565](https://github.com/microsoft/pylance-release/issues/5565)
+-   Bug fix: Dont show `convert to relative path` for files in local `typings` or `stubs` path. [pylance-release#5505](https://github.com/microsoft/pylance-release/issues/5505)
+-   Bug fix: Move symbol to doesn't work in typed context [pylance-release#5498](https://github.com/microsoft/pylance-release/issues/5498)
+-   Bug fix: JavaScript heap out of memory - pytest w aws_cdk imports [pylance-release#5440](https://github.com/microsoft/pylance-release/issues/5440)
+-   Bug fix: semantic modifiers : BuiltinConstants don't have the TypeHint modifier when they should [pylance-release#4758](https://github.com/microsoft/pylance-release/issues/4758)
+
+Pylance's copy of Pyright has been updated from 1.1.351 to 1.1.354.
+
+-   See Pyright's release notes for details: [1.1.352](https://github.com/microsoft/pyright/releases/tag/1.1.352), [1.1.353](https://github.com/microsoft/pyright/releases/tag/1.1.353), [1.1.354](https://github.com/microsoft/pyright/releases/tag/1.1.354)
+
+## 2024.3.2 (25 March 2024) Release
+
+Notable changes:
+
+-   Bug fix: Code marked as unreachable after pandas concat [pylance-release#5630](https://github.com/microsoft/pylance-release/issues/5630)
+
+## 2024.3.1 (12 March 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.2.106](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20242106-7-march-2024-prerelease) prerelease build.
+
+## 2024.2.106 (7 March 2024) PreRelease
+
+Notable changes:
+
+-   Enhancement: Added telemetry to investigate the hover performance issue [pylance-release#5598](https://github.com/microsoft/pylance-release/issues/5598)
+
+## 2024.2.105 (29 February 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: add import throws on certain invalid code [pylance-release#5536](https://github.com/microsoft/pylance-release/issues/5536)
+
+## 2024.2.104 (27 February 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Telemetry fixes
+
+## 2024.2.103 (22 February 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: "Auto-Import" imports from wrong path when import format is "relative" [pylance-release#5427](https://github.com/microsoft/pylance-release/issues/5427)
+-   Enhancement: Improve error message when symbol fails to be moved to an existing file [pylance-release#4345](https://github.com/microsoft/pylance-release/issues/4345)
+
+## 2024.2.102 (20 February 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: `searchImport` fails with circular reference some times. [pylance-release#5481](https://github.com/microsoft/pylance-release/issues/5481)
+-   Bug fix: Enhancement: Support a different location for downloading type stubs in the browser [pylance-release#5479](https://github.com/microsoft/pylance-release/issues/5479)
+
+Pylance's copy of Pyright has been updated from 1.1.350 to 1.1.351.
+
+-   See Pyright's release notes for details: [1.1.351](https://github.com/microsoft/pyright/releases/tag/1.1.351)
+
+## 2024.2.101 (15 February 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Support cancellation in the browser when COI is turned off [pylance-release#5473](https://github.com/microsoft/pylance-release/issues/5473)
+-   Enhancement: Add `Change spelling to` code action similar to what typescript provide [pylance-release#5467](https://github.com/microsoft/pylance-release/issues/5467)
+-   Bug fix: `region` at the start of a normal comment triggers error about `endregion` being missing [pylance-release#3857](https://github.com/microsoft/pylance-release/issues/3857)
+
+## 2024.2.100 (13 February 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Release version 2024.2.1 shows missing imports error for function imported from another python file [pylance-release#5459](https://github.com/microsoft/pylance-release/issues/5459)
+-   Enhancement: Add heuristics for add imports quick fixes [pylance-release#5226](https://github.com/microsoft/pylance-release/issues/5226)
+-   Bug fix: Editor language status for Python wiggles distractingly [pylance-release#4961](https://github.com/microsoft/pylance-release/issues/4961)
+-   Bug fix: Quick Fix import puts local imports with third-party imports [pylance-release#4872](https://github.com/microsoft/pylance-release/issues/4872)
+
+Pylance's copy of Pyright has been updated from 1.1.348 to 1.1.350.
+
+-   See Pyright's release notes for details: [1.1.349](https://github.com/microsoft/pyright/releases/tag/1.1.349), [1.1.350](https://github.com/microsoft/pyright/releases/tag/1.1.350)
+
+## 2024.2.3 (4 March 2024) Release
+
+Notable changes:
+
+-   Enhancement: Server-side LSP request telemetry
+
+## 2024.2.2 (14 February 2024) Release
+
+Notable changes:
+
+-   Enhancement: Added telemetry to diagnose slow completions
+-   Bug fix: Release version 2024.2.1 shows missing imports error for function imported from another python file [pylance-release#5459](https://github.com/microsoft/pylance-release/issues/5459)
+
+## 2024.2.1 (8 February 2024) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2024.1.104](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20241104-1-february-2024-prerelease) prerelease build.
+
+## 2024.1.104 (1 February 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Cell URI to notebook URI conversion fails if path only contains filename [pylance-release#5435](https://github.com/microsoft/pylance-release/issues/5435)
+
+## 2024.1.103 (31 January 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Extract method and variable not working on Untitled notebooks in WSL [pylance-release#5424](https://github.com/microsoft/pylance-release/issues/5424)
+-   Bug fix: Cancellation failed in browser [pylance-release#5420](https://github.com/microsoft/pylance-release/issues/5420)
+
+## 2024.1.102 (29 January 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Extract variable shouldn't be offered when multiple statements are selected. [pylance-release#5400](https://github.com/microsoft/pylance-release/issues/5400)
+-   Bug fix: MoveSymbol doesn't work with network folder [pylance-release#5399](https://github.com/microsoft/pylance-release/issues/5399)
+
+## 2024.1.101 (25 January 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Turning off indexing, Pylance gives different results for completions (2023.12.1 did not) [pylance-release#5397](https://github.com/microsoft/pylance-release/issues/5397)
+-   Bug fix: Symbols from ancestor cells in Interactive Window are unrecognized [pylance-release#5389](https://github.com/microsoft/pylance-release/issues/5389)
+
+## 2024.1.100 (24 January 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: No docstrings shown for stdlib symbols [pylance-release#5383](https://github.com/microsoft/pylance-release/issues/5383)
+-   Bug fix: Indexing time with 2023.12.104 is about 3x slower [pylance-release#5382](https://github.com/microsoft/pylance-release/issues/5382)
+
+Pylance's copy of Pyright has been updated from 1.1.347 to 1.1.348.
+
+-   See Pyright's release notes for details: [1.1.348](https://github.com/microsoft/pyright/releases/tag/1.1.348)
+
+## 2023.12.104 (22 January 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: "Received redundant open text document command" when working off mapped network drive [pylance-release#5326](https://github.com/microsoft/pylance-release/issues/5326)
+-   Bug fix: Go-to-def/find-all-refs/rename doesn't work for class declared after type alias [pylance-release#5304](https://github.com/microsoft/pylance-release/issues/5304)
+-   Bug fix: "unknown import symbol" for symbol in unsaved file in symlinked directory [pylance-release#5181](https://github.com/microsoft/pylance-release/issues/5181)
+-   Bug fix: Sync server fails to load `python.analysis.*` (and other) config settings [pylance-release#5035](https://github.com/microsoft/pylance-release/issues/5035)
+-   Bug fix: Rename Symbol deletes extra characters when replacing a symbol found after an elif [pylance-release#4966](https://github.com/microsoft/pylance-release/issues/4966)
+
+Pylance's copy of Pyright has been updated from 1.1.338 to 1.1.347.
+
+-   See Pyright's release notes for details: [1.1.339](https://github.com/microsoft/pyright/releases/tag/1.1.339), [1.1.340](https://github.com/microsoft/pyright/releases/tag/1.1.340), [1.1.341](https://github.com/microsoft/pyright/releases/tag/1.1.341), [1.1.342](https://github.com/microsoft/pyright/releases/tag/1.1.342), [1.1.343](https://github.com/microsoft/pyright/releases/tag/1.1.343), [1.1.344](https://github.com/microsoft/pyright/releases/tag/1.1.344), [1.1.345](https://github.com/microsoft/pyright/releases/tag/1.1.345), [1.1.346](https://github.com/microsoft/pyright/releases/tag/1.1.346), [1.1.347](https://github.com/microsoft/pyright/releases/tag/1.1.347)
+
+## 2023.12.103 (10 January 2024) PreRelease
+
+Notable changes:
+
+-   Enhancement: Output Pyright version in Pylance log [pylance-release#5331](https://github.com/microsoft/pylance-release/issues/5331)
+-   Bug fix: Extract method not working when invoking it on a member inside a class [pylance-release#5277](https://github.com/microsoft/pylance-release/issues/5277)
+-   Bug fix: Auto Generate pandas docify config for docstring injection [pylance-release#5334](https://github.com/microsoft/pylance-release/issues/5334)
+
+## 2023.12.102 (4 January 2024) PreRelease
+
+Notable changes:
+
+-   Bug fix: Slow Code Completion for Function Names When Analyzing Overridable Functions in Classes [pylance-release#5268](https://github.com/microsoft/pylance-release/issues/5268)
+
+## 2023.12.101 (20 December 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance renders inlay parameter hints with type hint color [pylance-release#5278](https://github.com/microsoft/pylance-release/issues/5278)
+-   Bug fix: Expand Selection on a class method selects the whole file [pylance-release#5272](https://github.com/microsoft/pylance-release/issues/5272)
+-   Bug fix: Inconsistent use of '...' in UI labels [pylance-release#5218](https://github.com/microsoft/pylance-release/issues/5218)
+-   Bug fix: Fix Pylance crash in PTVS [PTVS#7771](https://github.com/microsoft/PTVS/issues/7771)
+
+## 2023.12.100 (14 December 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance not recognizing properties and methods from injected dependencies after v2023.12.1 update [pylance-release#5262](https://github.com/microsoft/pylance-release/issues/5262)
+-   Bug fix: Improper handling of partial type stub packages [pylance-release#5139](https://github.com/microsoft/pylance-release/issues/5139)
+
+Pylance's copy of Pyright has been updated from 1.1.336 to 1.1.338.
+
+-   See Pyright's release notes for details: [1.1.337](https://github.com/microsoft/pyright/releases/tag/1.1.337), [1.1.338](https://github.com/microsoft/pyright/releases/tag/1.1.338)
+
+## 2023.12.1 (13 December 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.11.104](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#202311104-7-december-2023-prerelease) prerelease build.
+
+## 2023.11.104 (7 December 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Goto def doesn't work in VS code.dev [pylance-release#5222](https://github.com/microsoft/pylance-release/issues/5222)
+
+## 2023.11.103 (7 December 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Goto def doesn't work in VS code.dev [pylance-release#5222](https://github.com/microsoft/pylance-release/issues/5222)
+
+## 2023.11.102 (1 December 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: [Linux] GoTo definition performs symlink resolution [pylance-release#5136](https://github.com/microsoft/pylance-release/issues/5136)
+-   Bug fix: Auto-indent indents unexpectedly in "in between comments" scenario [pylance-release#5100](https://github.com/microsoft/pylance-release/issues/5100)
+-   Bug fix: Auto indentation doesn't work when hitting enter in a class method [pylance-release#5098](https://github.com/microsoft/pylance-release/issues/5098)
+-   Bug fix: Rename symbol in a symbolic py file opens source file [pylance-release#5030](https://github.com/microsoft/pylance-release/issues/5030)
+
+## 2023.11.13 (15 November 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Error: Debug Failure. False expression: Check called before binding [pylance-release#5097](https://github.com/microsoft/pylance-release/issues/5097)
+-   Enhancement: Add support for "Show super type Hierarchy" command [pylance-release#4978](https://github.com/microsoft/pylance-release/issues/4978)
+
+Pylance's copy of Pyright has been updated from 1.1.335 to 1.1.336.
+
+-   See Pyright's release notes for details: [1.1.336](https://github.com/microsoft/pyright/releases/tag/1.1.336)
+
+## 2023.11.12 (8 November 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: "RangeError: Maximum call stack size exceeded" [pylance-release#5090](https://github.com/microsoft/pylance-release/issues/5090)
+-   Bug fix: Pylance hints not working in Jupyter Notebook in Remote Tunnel [pylance-release#5071](https://github.com/microsoft/pylance-release/issues/5071)
+-   Bug fix: Pylance v2023.10.50 is incompatible with Python Extension v2020.8.109390 [pylance-release#5019](https://github.com/microsoft/pylance-release/issues/5019)
+-   Bug fix: abstractmethod override inherits typing with only the final object name [pylance-release#4948](https://github.com/microsoft/pylance-release/issues/4948)
+-   Bug fix: Auto indentation fails after comment lines [pylance-release#4763](https://github.com/microsoft/pylance-release/issues/4763)
+
+Pylance's copy of Pyright has been updated from 1.1.334 to 1.1.335.
+
+-   See Pyright's release notes for details: [1.1.335](https://github.com/microsoft/pyright/releases/tag/1.1.335)
+
+## 2023.11.11 (2 November 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance crashes upon startup: `[info] Error: [UriError]: Scheme contains illegal characters.` [pylance-release#5032](https://github.com/microsoft/pylance-release/issues/5032)
+-   Bug fix: ExtractMethod no longer works on notebooks opened from WSL [pylance-release#5016](https://github.com/microsoft/pylance-release/issues/5016)
+-   Bug fix: [Auto Import] - Suggest equivalents from `collections.abc` rather than `typing` [pylance-release#3318](https://github.com/microsoft/pylance-release/issues/3318)
+
+Pylance's copy of Pyright has been updated from 1.1.333 to 1.1.334.
+
+-   See Pyright's release notes for details: [1.1.334](https://github.com/microsoft/pyright/releases/tag/1.1.334)
+
+## 2023.11.10 (2 November 2023) Release
+
+Notable changes:
+
+-   Rolled back release version that includes changes through the [2023.10.40](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20231040-20-october-2023-release) release build.
+
+## 2023.10.53 (27 October 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Fix crash when calling isSymbolicLink on stat of zip/egg [pylance-release#5009](https://github.com/microsoft/pylance-release/issues/5009)
+
+## 2023.10.52 (26 October 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance v2023.10.51 no longer works once Untitled notebooks are saved as e.g. Untitiled-1.ipynb
+
+## 2023.10.51 (26 October 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pytest add fixture type annotation code action shows up for non test files [pylance-release#5003](https://github.com/microsoft/pylance-release/issues/5003)
+-   Bug fix: Pylance does not respect `__builtins__.pyi` for notebooks. [pylance-release#4949](https://github.com/microsoft/pylance-release/issues/4949)
+-   Bug fix: Wrong inlay hint when passing \*arg or \*\*kwarg [pylance-release#4930](https://github.com/microsoft/pylance-release/issues/4930)
+
+## 2023.10.50 (26 October 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.10.41](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20231041-20-october-2023-prerelease) prerelease build.
+
+## 2023.10.41 (20 October 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance latest release killing remote connections to notebooks [pylance-release#4983](https://github.com/microsoft/pylance-release/issues/4983)
+-   Bug fix: Use pyright-specific comment for `Quick Fix... > Add '# type: ignore' to suppress warning` [pylance-release#4494](https://github.com/microsoft/pylance-release/issues/4494)
+-   Bug fix: "No code actions available" if Ctrl+. is hit quickly after moving the cursor [pylance-release#1247](https://github.com/microsoft/pylance-release/issues/1247)
+
+## 2023.10.40 (20 October 2023) Release
+
+This is a hotfix release based on [2023.10.30](https://github.com/microsoft/pyrx/blob/main/packages/vscode-pylance/CHANGELOG.md#20231030-18-october-2023-release) with the following changes:
+
+-   Bug fix: Pylance latest release killing remote connections to notebooks [pylance-release#4983](https://github.com/microsoft/pylance-release/issues/4983)
+
+## 2023.10.31 (18 October 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: There is no preview after renaming module [pylance-release#4964](https://github.com/microsoft/pylance-release/issues/4964)
+-   Bug fix: `pytest code action fix all` fails to fully qualify types if it shows up multiple times. [pylance-release#4958](https://github.com/microsoft/pylance-release/issues/4958)
+-   Bug fix: The result of finding all references to the **init** function is not correct [pylance-release#4954](https://github.com/microsoft/pylance-release/issues/4954)
+-   Bug fix: support hover tooltip on string that mapped to module/symbol [pylance-release#4287](https://github.com/microsoft/pylance-release/issues/4287)
+
+Pylance's copy of Pyright has been updated from 1.1.331 to 1.1.332.
+
+-   See Pyright's release notes for details: [1.1.332](https://github.com/microsoft/pyright/releases/tag/1.1.332)
+
+## 2023.10.30 (18 October 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.10.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20231021-11-october-2023-prerelease) prerelease build.
+
+## 2023.10.21 (11 October 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: [Type hints] Pylance is confused by `type(parameter_name)` instructions [pylance-release#4942](https://github.com/microsoft/pylance-release/issues/4942)
+-   Bug fix: Don't show `stubPath xxx is not a valid directory` warning when using config default [pylance-release#4917](https://github.com/microsoft/pylance-release/issues/4917)
+-   Bug fix: Cancellation exception from inlay hints [pylance-release#4916](https://github.com/microsoft/pylance-release/issues/4916)
+-   Bug fix: Auto imports typeshed fallback when using refactor -> move symbol [pylance-release#4871](https://github.com/microsoft/pylance-release/issues/4871)
+
+Pylance's copy of Pyright has been updated from 1.1.330 to 1.1.331.
+
+-   See Pyright's release notes for details: [1.1.331](https://github.com/microsoft/pyright/releases/tag/1.1.331)
+
+## 2023.10.20 (11 October 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2022.10.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221011-4-october-2023-prerelease) prerelease build.
+
+## 2022.10.11 (4 October 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: pyTest features are sometime very slow [pylance-release#4805](https://github.com/microsoft/pylance-release/issues/4805)
+-   Enhancement: add support for `__setattr__`, `__delattr__` and `__getattribute__` [pylance-release#4786](https://github.com/microsoft/pylance-release/issues/4786)
+-   Enhancement: Add auto import setting as a language status item [pylance-release#3894](https://github.com/microsoft/pylance-release/issues/3894)
+
+Pylance's copy of Pyright has been updated from 1.1.329 to 1.1.330.
+
+-   See Pyright's release notes for details: [1.1.330](https://github.com/microsoft/pyright/releases/tag/1.1.330)
+
+## 2022.10.10 (4 October 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.9.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023931-27-september-2023-prerelease) prerelease build.
+
+## 2023.9.31 (27 September 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance not starting if python file is located on UNC network drive. [pylance-release#4862](https://github.com/microsoft/pylance-release/issues/4862)
+-   Bug fix: Can't import file from the same directory [pylance-release#4861](https://github.com/microsoft/pylance-release/issues/4861)
+-   Bug fix: Auto-dedent on `else:` in tabbed file removes too many characters [pylance-release#4858](https://github.com/microsoft/pylance-release/issues/4858)
+-   Bug fix: No action on "Remove all unused imports" [pylance-release#4830](https://github.com/microsoft/pylance-release/issues/4830)
+
+Pylance's copy of Pyright has been updated from 1.1.328 to 1.1.329.
+
+-   See Pyright's release notes for details: [1.1.329](https://github.com/microsoft/pyright/releases/tag/1.1.329)
+
+## 2023.9.30 (27 September 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.9.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023921-20-september-2023-prerelease) prerelease build.
+
+## 2023.9.21 (20 September 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Inconsistent behavior of formatOnType for multi-line with different line break types [pylance-release#4456](https://github.com/microsoft/pylance-release/issues/4456)
+
+Pylance's copy of Pyright has been updated from 1.1.326 to 1.1.328.
+
+-   See Pyright's release notes for details: [1.1.327](https://github.com/microsoft/pyright/releases/tag/1.1.327), [1.1.328](https://github.com/microsoft/pyright/releases/tag/1.1.328)
+
+## 2023.9.20 (20 September 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.9.12](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023912-8-september-2023-prerelease) prerelease build.
+
+## 2023.9.12 (8 September 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance returns symbols for previous version of the document [pylance-release#4810](https://github.com/microsoft/pylance-release/issues/4810)
+-   Bug fix: Latest insiders does not recognise active pyenv virtualenv [pylance-release#4806](https://github.com/microsoft/pylance-release/issues/4806)
+-   Enhancement: Make "add type annotation for pyTest arguments" to add `import` automatically as well. [pylance-release#4779](https://github.com/microsoft/pylance-release/issues/4779)
+
+## 2023.9.11 (6 September 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Diagnostics can suddenly disappear in a notebook [pylance-release#4780](https://github.com/microsoft/pylance-release/issues/4780)
+-   Enhancement: Support `goto def` on `__getattr__` as well [pylance-release#4764](https://github.com/microsoft/pylance-release/issues/4764)
+-   Bug fix: Rename of type alias defined with PEP 695 fails [pylance-release#4696](https://github.com/microsoft/pylance-release/issues/4696)
+-   Bug fix: Wrong tooltip `Dictionary key` when indexing a list [pylance-release#4689](https://github.com/microsoft/pylance-release/issues/4689)
+-   Bug fix: Pylance not completing suggestions for first party imports [pylance-release#4678](https://github.com/microsoft/pylance-release/issues/4678)
+-   Enhancement: Python Analysis Inlay Hints Call Argument Names gives useless and confusing names [pylance-release#4543](https://github.com/microsoft/pylance-release/issues/4543)
+
+Pylance's copy of Pyright has been updated from 1.1.325 to 1.1.326.
+
+-   See Pyright's release notes for details: [1.1.326](https://github.com/microsoft/pyright/releases/tag/1.1.326)
+
+## 2023.9.10 (6 September 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.8.51](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023851-30-august-2023-prerelease) prerelease build.
+
+## 2023.8.51 (30 August 2023) PreRelease
+
+Notable changes:
+
+-   Enhancement: Pylance import resolve messages should be pushed to Pyright [pylance-release#4701](https://github.com/microsoft/pylance-release/issues/4701)
+-   Bug fix: Pylance crashing on Jupyter Notebook Cell Deletion [pylance-release#4685](https://github.com/microsoft/pylance-release/issues/4685)
+-   Enhancement: Autocomplete for `__getattr__` by Literal values [pylance-release#4660](https://github.com/microsoft/pylance-release/issues/4660)
+-   Enhancement: No suggestions for TypedDict value with Union[Literal, None] type annotation [pylance-release#4649](https://github.com/microsoft/pylance-release/issues/4649)
+-   Enhancement: Completions don't work for test parameters [pylance-release#4590](https://github.com/microsoft/pylance-release/issues/4590)
+-   Enhancement: Go to def on `in` should navigate to `__contains__` [pylance-release#4467](https://github.com/microsoft/pylance-release/issues/4467)
+
+Pylance's copy of Pyright has been updated from 1.1.324 to 1.1.325.
+
+-   See Pyright's release notes for details: [1.1.325](https://github.com/microsoft/pyright/releases/tag/1.1.325)
+
+## 2023.8.50 (30 August 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.8.41](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023841-23-august-2023-prerelease) prerelease build.
+
+## 2023.8.41 (23 August 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: IntelliSense not fully working with Python Enum classes [pylance-release#4734](https://github.com/microsoft/pylance-release/issues/4734)
+-   Bug fix: Pylance crash after saving loose untitled notebook [pylance-release#4733](https://github.com/microsoft/pylance-release/issues/4733)
+-   Bug fix: formatOnType causes incorrect indentation in nested function calls within functions and methods [pylance-release#4714](https://github.com/microsoft/pylance-release/issues/4714)
+-   Bug fix: Pylance crashing on Jupyter Notebook Cell Deletion [pylance-release#4685](https://github.com/microsoft/pylance-release/issues/4685)
+-   Bug fix: Sometimes the referenced objects and methods may appear as Unknown [pylance-release#4684](https://github.com/microsoft/pylance-release/issues/4684)
+-   Bug fix: Inconsistency between inlay hint and implied type with recursive type [pylance-release#4641](https://github.com/microsoft/pylance-release/issues/4641)
+-   Bug fix: Auto-indent doesn't respect VS Code indentation settings in new files [pylance-release#4071](https://github.com/microsoft/pylance-release/issues/4071)
+-   Bug fix: Python code prompt in vscode with docstring [pylance-release#3509](https://github.com/microsoft/pylance-release/issues/3509)
+
+Pylance's copy of Pyright has been updated from 1.1.323 to 1.1.324.
+
+-   See Pyright's release notes for details: [1.1.324](https://github.com/microsoft/pyright/releases/tag/1.1.324)
+
+## 2023.8.40 (23 August 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.8.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023831-16-august-2023-prerelease) prerelease build.
+
+## 2023.8.31 (16 August 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance crashing for unknown reason [pylance-release#4712](https://github.com/microsoft/pylance-release/issues/4712)
+-   Bug fix: False positive when using structural pattern matching inside a loop [pylance-release#4706](https://github.com/microsoft/pylance-release/issues/4706)
+-   Enhancement: Importing SynapseML doesn't work [pylance-release#4648](https://github.com/microsoft/pylance-release/issues/4648)
+
+Pylance's copy of Pyright has been updated from 1.1.321 to 1.1.323.
+
+-   See Pyright's release notes for details: [1.1.322](https://github.com/microsoft/pyright/releases/tag/1.1.322), [1.1.323](https://github.com/microsoft/pyright/releases/tag/1.1.323)
+
+## 2023.8.30 (16 August 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.8.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023821-9-august-2023-prerelease) prerelease build.
+
+## 2023.8.21 (9 August 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory [pylance-release#4598](https://github.com/microsoft/pylance-release/issues/4598)
+
+Pylance's copy of Pyright has been updated from 1.1.320 to 1.1.321.
+
+-   See Pyright's release notes for details: [1.1.321](https://github.com/microsoft/pyright/releases/tag/1.1.321)
+
+## 2023.8.20 (9 August 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.8.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023811-2-august-2023-prerelease) prerelease build.
+
+## 2023.8.11 (2 August 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: `__iter__` implementation not detected in superclass of Pyomo OrderedScalarSet [pylance-release#4667](https://github.com/microsoft/pylance-release/issues/4667)
+-   Bug fix: error: Expected no type arguments for class in pyright, but not pylance [pylance-release#4656](https://github.com/microsoft/pylance-release/issues/4656)
+-   Bug fix: Don't show private modules for import completions on a py.typed package [pylance-release#4528](https://github.com/microsoft/pylance-release/issues/4528)
+
+Pylance's copy of Pyright has been updated from 1.1.319 to 1.1.320.
+
+-   See Pyright's release notes for details: [1.1.320](https://github.com/microsoft/pyright/releases/tag/1.1.320)
+
+## 2023.8.10 (2 August 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.7.43](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023743-31-july-2023-prerelease) prerelease build.
+
+## 2023.7.43 (31 July 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: No `unbound variable` reported for variable self assignment inside function [pylance-release#4634](https://github.com/microsoft/pylance-release/issues/4634)
+-   Bug fix: Support for code block wrapped with "~~~" [pylance-release#4612](https://github.com/microsoft/pylance-release/issues/4612)
+-   Bug fix: Import resolve error changes should be behind an experiment [pylance-release#4672](https://github.com/microsoft/pylance-release/issues/4672)
+
+## 2023.7.42 (28 July 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Unexpected "importSourceResolveFailure" [pylance-release#4653](https://github.com/microsoft/pylance-release/issues/4653)
+-   Bug fix: AddExtraPath was broken by the rule change for import resolve errors [pylance-release#4651](https://github.com/microsoft/pylance-release/issues/4651)
+
+## 2023.7.41 (26 July 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance not indexing all files and symbols for sqlalchemy even with package depth of 4 [pylance-release#4637](https://github.com/microsoft/pylance-release/issues/4637)
+-   Bug fix: Pylance seems to forget the selected interpreter after a (short) while: reportMissingImports [pylance-release#4606](https://github.com/microsoft/pylance-release/issues/4606)
+-   Enhancement: Add ability to track messages being displayed to users [pylance-release#4482](https://github.com/microsoft/pylance-release/issues/4482)
+-   Enhancement: Import resolution errors should show more information about the environment in use [pylance-release#4368](https://github.com/microsoft/pylance-release/issues/4368)
+-   Bug fix: `python.analysis.completeFunctionParens` adds parens on base class names [pylance-release#4273](https://github.com/microsoft/pylance-release/issues/4273)
+
+Pylance's copy of Pyright has been updated from 1.1.318 to 1.1.319.
+
+-   See Pyright's release notes for details: [1.1.319](https://github.com/microsoft/pyright/releases/tag/1.1.319)
+
+## 2023.7.40 (26 July 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.7.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023731-19-july-2023-prerelease) prerelease build.
+
+## 2023.7.31 (19 July 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance reports errors in EJS file [pylance-release#4591](https://github.com/microsoft/pylance-release/issues/4591)
+-   Bug fix: Wrong return type when autocomplete async abstractmethod [pylance-release#4573](https://github.com/microsoft/pylance-release/issues/4573)
+-   Bug fix: Annotated[..., Type] forward references are not understood [pylance-release#4565](https://github.com/microsoft/pylance-release/issues/4565)
+-   Bug fix: Server settings should be printed when in 'trace' mode. [pylance-release#4559](https://github.com/microsoft/pylance-release/issues/4559)
+-   Bug fix: Long operation nearly 80 seconds [pylance-release#4459](https://github.com/microsoft/pylance-release/issues/4459)
+-   Bug fix: Show Call Hierarchy doesn't handle overridden methods correctly [pylance-release#2774](https://github.com/microsoft/pylance-release/issues/2774)
+-   Enhancement: Stop Suggesting Enum member access on Enum members [pylance-release#1905](https://github.com/microsoft/pylance-release/issues/1905)
+
+Pylance's copy of Pyright has been updated from 1.1.316 to 1.1.318.
+
+-   See Pyright's release notes for details: [1.1.317](https://github.com/microsoft/pyright/releases/tag/1.1.317), [1.1.318](https://github.com/microsoft/pyright/releases/tag/1.1.318)
+
+## 2023.7.30 (19 July 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.7.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023721-12-july-2023-prerelease) prerelease build.
+
+## 2023.7.21 (12 July 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Enabled "python.analysis.autoFormatStrings" is being applied on docstrings [pylance-release#4583](https://github.com/microsoft/pylance-release/issues/4583)
+-   Bug fix: Typo in description of python.analysis.inlayHints.pytestParameters [pylance-release#4576](https://github.com/microsoft/pylance-release/issues/4576)
+-   Bug fix: Using autocomplete to override methods yields unexpected imports [pylance-release#4575](https://github.com/microsoft/pylance-release/issues/4575)
+-   Bug fix: Moving symbol refactoring: docstrings have the blank line removed [pylance-release#4540](https://github.com/microsoft/pylance-release/issues/4540)
+-   Bug fix: PyLance automatically removes tab when using colon [pylance-release#4507](https://github.com/microsoft/pylance-release/issues/4507)
+
+## 2023.7.20 (12 July 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.7.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023711-5-july-2023-prerelease) prerelease build.
+
+## 2023.7.11 (5 July 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance automatically removes tab when using colon [pylance-release#4507](https://github.com/microsoft/pylance-release/issues/4507)
+
+## 2023.7.10 (5 July 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.6.43](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023643-3-july-2023-prerelease) prerelease build.
+
+## 2023.6.43 (3 July 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Fix Django-specific telemetry
+
+## 2023.6.42 (29 June 2023) PreRelease
+
+Notable changes:
+
+-   Enhancement: Add support for localization [pylance-release#3437](https://github.com/microsoft/pylance-release/issues/3437)
+
+## 2023.6.41 (28 June 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pylance does not find scipy functions (e.g. "filtfilt" is not a known member of "scipy.signal") since Pylance 2023.6.20 [pylance-release#4531](https://github.com/microsoft/pylance-release/issues/4531)
+-   Bug fix: Overloaded functions not recognized [pylance-release#4526](https://github.com/microsoft/pylance-release/issues/4526)
+-   Bug fix: Automatic Indentation for Multiline F-Strings within Brackets [pylance-release#4496](https://github.com/microsoft/pylance-release/issues/4496)
+-   Bug fix: Debug Failure. False expression: Check called unnecessarily [pylance-release#4492](https://github.com/microsoft/pylance-release/issues/4492)
+
+Pylance's copy of Pyright has been updated from 1.1.315 to 1.1.316.
+
+-   See Pyright's release notes for details: [1.1.316](https://github.com/microsoft/pyright/releases/tag/1.1.316)
+
+## 2023.6.40 (28 June 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.6.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023631-21-june-2023-prerelease) prerelease build.
+
+## 2023.6.31 (21 June 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Type Checking Working Inconsistently [pylance-release#4495](https://github.com/microsoft/pylance-release/issues/4495)
+-   Bug fix: Automatically infer class variables based on declaration [pylance-release#4389](https://github.com/microsoft/pylance-release/issues/4389)
+
+Pylance's copy of Pyright has been updated from 1.1.314 to 1.1.315.
+
+-   See Pyright's release notes for details: [1.1.315](https://github.com/microsoft/pyright/releases/tag/1.1.315)
+
+## 2023.6.30 (21 June 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.6.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023621-14-june-2023-prerelease) prerelease build.
+
+## 2023.6.21 (14 June 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Stubs downloader log claims that `django` is not installed, but it is [pylance-release#4469](https://github.com/microsoft/pylance-release/issues/4469)
+-   Bug fix: Source actions not found [pylance-release#4464](https://github.com/microsoft/pylance-release/issues/4464)
+-   Bug fix: The cursor doesn't auto indent after newline [pylance-release#4444](https://github.com/microsoft/pylance-release/issues/4444)
+-   Bug fix: Pylance crash when autocompleting aws_cdk [pylance-release#4241](https://github.com/microsoft/pylance-release/issues/4241)
+
+Pylance's copy of Pyright has been updated from 1.1.313 to 1.1.314.
+
+-   See Pyright's release notes for details: [1.1.314](https://github.com/microsoft/pyright/releases/tag/1.1.314)
+
+## 2023.6.20 (14 June 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.6.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023611-7-june-2023-prerelease) prerelease build.
+
+## 2023.6.11 (7 June 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Escaped anti-slash at the end of f-string shows syntax error [pylance-release#4460](https://github.com/microsoft/pylance-release/issues/4460)
+-   Bug fix: Cannot access member "named_steps" for type "BaseEstimator" [pylance-release#4432](https://github.com/microsoft/pylance-release/issues/4432)
+-   Bug fix: Error: Debug Failure. False expression: Check called before binding [pylance-release#4310](https://github.com/microsoft/pylance-release/issues/4310)
+-   Enhancement: Provides go to def support for overloaded operators and special method names. [pylance-release#3759](https://github.com/microsoft/pylance-release/issues/3759)
+
+Pylance's copy of Pyright has been updated from 1.1.311 to 1.1.313.
+
+-   See Pyright's release notes for details: [1.1.312](https://github.com/microsoft/pyright/releases/tag/1.1.312), [1.1.313](https://github.com/microsoft/pyright/releases/tag/1.1.313)
+
+## 2023.6.10 (7 June 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.5.51](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023551-31-may-2023-prerelease) prerelease build.
+
+## 2023.5.51 (31 May 2023) PreRelease
+
+Notable changes:
+
+-   Enhancement: Make the file count limit for indexing configurable [pylance-release#4417](https://github.com/microsoft/pylance-release/issues/4417)
+-   Enhancement: Using `display` in a notebook requires a kernel be selected that has IPython installed [pylance-release#4193](https://github.com/microsoft/pylance-release/issues/4193)
+
+Pylance's copy of Pyright has been updated from 1.1.310 to 1.1.311.
+
+-   See Pyright's release notes for details: [1.1.311](https://github.com/microsoft/pyright/releases/tag/1.1.311)
+
+## 2023.5.50 (31 May 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.5.41](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023541-24-May-2023-prerelease) prerelease build.
+
+## 2023.5.41 (24 May 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Google docstrings, hover preview for args when multiple words in parenthesis [pylance-release#4395](https://github.com/microsoft/pylance-release/issues/4395)
+-   Bug fix: "expand selection" behaves inconsistently [pylance-release#4393](https://github.com/microsoft/pylance-release/issues/4393)
+-   Bug fix: renaming symbol from untitled python file does not change the symbol in the file [pylance-release#4335](https://github.com/microsoft/pylance-release/issues/4335)
+
+Pylance's copy of Pyright has been updated from 1.1.309 to 1.1.310.
+
+-   See Pyright's release notes for details: [1.1.310](https://github.com/microsoft/pyright/releases/tag/1.1.310)
+
+## 2023.5.40 (24 May 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.5.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023531-17-May-2023-prerelease) prerelease build.
+
+## 2023.5.31 (17 May 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Very poor performance with CDK for Terraform AWS provider [pylance-release#4362](https://github.com/microsoft/pylance-release/issues/4362)
+-   Bug fix: Raw strings should not auto format [pylance-release#4320](https://github.com/microsoft/pylance-release/issues/4320)
+
+Pylance's copy of Pyright has been updated from 1.1.307 to 1.1.309.
+
+-   See Pyright's release notes for details: [1.1.308](https://github.com/microsoft/pyright/releases/tag/1.1.308), [1.1.309](https://github.com/microsoft/pyright/releases/tag/1.1.309)
+
+## 2023.5.30 (17 May 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.5.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023521-10-May-2023-prerelease) prerelease build.
+
+## 2023.5.21 (10 May 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Raw strings should not auto format [pylance-release#4320](https://github.com/microsoft/pylance-release/issues/4320)
+-   Bug fix: Google docstrings with type hints not displaying properly in hover window after version 2023.4.30 [pylance-release#4317](https://github.com/microsoft/pylance-release/issues/4317)
+-   Bug fix: wrong result for references [pylance-release#4285](https://github.com/microsoft/pylance-release/issues/4285)
+-   Bug fix: Indentation for tuples doesn't work [pylance-release#4259](https://github.com/microsoft/pylance-release/issues/4259)
+-   Bug fix: Saving .py files delayed by Getting code actions from 'Python' [pylance-release#4263](https://github.com/microsoft/pylance-release/issues/4263)
+-   Enhancement: Enable inlay hints for call argument names by setting 'python.analysis.inlayHints.callArgumentNames' to true
+
+Pylance's copy of Pyright has been updated from 1.1.306 to 1.1.307.
+
+-   See Pyright's release notes for details: [1.1.307](https://github.com/microsoft/pyright/releases/tag/1.1.307)
+
+## 2023.5.20 (10 May 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.5.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023511-3-May-2023-prerelease) prerelease build.
+
+## 2023.5.11 (3 May 2023) PreRelease
+
+Notable changes:
+
+-   Enhancement: Support for PEP 712 [pylance-release#4290](https://github.com/microsoft/pylance-release/issues/4290)
+-   Bug fix: Typing `import an` should not result in auto-importing of antigravity [pylance-release#4229](https://github.com/microsoft/pylance-release/issues/4229)
+-   Enhancement: Remove auto-import when typing the letter d to avoid being serenaded with The Zen of Python [pylance-release#2535](https://github.com/microsoft/pylance-release/issues/2535)
+
+Pylance's copy of Pyright has been updated from 1.1.305 to 1.1.306.
+
+-   See Pyright's release notes for details: [1.1.306](https://github.com/microsoft/pyright/releases/tag/1.1.306)
+
+## 2023.5.10 (3 May 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.4.41](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023441-26-April-2023-prerelease) prerelease build.
+
+## 2023.4.41 (26 April 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: reportGeneralTypeIssues: Pylance complains about sending any value other than None to a generator. [pylance-release#4275](https://github.com/microsoft/pylance-release/issues/4275)
+-   Bug fix: Move symbol refactoring not updating the import when symbol is referenced inside a function [pylance-release#4234](https://github.com/microsoft/pylance-release/issues/4234)
+-   Enhancement: feature request: braces should auto-pair inside f-strings [pylance-release#3743](https://github.com/microsoft/pylance-release/issues/3743)
+-   Enhancement: Go to definition by python module path in string [pylance-release#3700](https://github.com/microsoft/pylance-release/issues/3700)
+
+Pylance's copy of Pyright has been updated from 1.1.304 to 1.1.305.
+
+-   See Pyright's release notes for details: [1.1.305](https://github.com/microsoft/pyright/releases/tag/1.1.305)
+
+## 2023.4.40 (26 April 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.4.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023431-19-April-2023-prerelease) prerelease build.
+
+## 2023.4.31 (19 April 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Incorrect Evaluation of Recursive Types in Structural Pattern Matching [pylance-release#4240](https://github.com/microsoft/pylance-release/issues/4240)
+-   Bug fix: Error in bundled matplotlib stubs [pylance-release#4237](https://github.com/microsoft/pylance-release/issues/4237)
+-   Enhancement: Autocomplete for method overwrites could add missing imports [pylance-release#4200](https://github.com/microsoft/pylance-release/issues/4200)
+-   Bug fix: Linebreak issue with tooltip display of function comment [pylance-release#4074](https://github.com/microsoft/pylance-release/issues/4074)
+-   Bug fix: Indentation gets removed [pylance-release#3961](https://github.com/microsoft/pylance-release/issues/3961)
+
+Pylance's copy of Pyright has been updated from 1.1.303 to 1.1.304.
+
+-   See Pyright's release notes for details: [1.1.304](https://github.com/microsoft/pyright/releases/tag/1.1.304)
+
+## 2023.4.30 (19 April 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.4.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023421-12-April-2023-prerelease) prerelease build.
+
+## 2023.4.21 (12 April 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Generic Callable[[T], Any] cannot be passed on to another generic function [pylance-release#4219](https://github.com/microsoft/pylance-release/issues/4219)
+-   Bug fix: High CPU on starting pylance from get_pytest_options.py [pylance-release#4218](https://github.com/microsoft/pylance-release/issues/4218)
+-   Bug fix: Clear inlay hint on function return type when function declaration is incomplete. [pylance-release#4212](https://github.com/microsoft/pylance-release/issues/4212)
+-   Bug fix: Incorrect Evaluation of Recursive Types in Structural Pattern Matching [pylance-release#4207](https://github.com/microsoft/pylance-release/issues/4207)
+-   Bug fix: Don't put 2 lines between variables when moving symbol. [pylance-release#4202](https://github.com/microsoft/pylance-release/issues/4202)
+-   Bug fix: Folding is not working correctly for `#region` surrounded by imports [pylance-release#4159](https://github.com/microsoft/pylance-release/issues/4159)
+-   Bug fix: Get Outgoing Calls always returns no results for aliased functions and classes [pylance-release#4137](https://github.com/microsoft/pylance-release/issues/4137)
+-   Bug fix: Matplotlib subplots not returning correct types [pylance-release#3482](https://github.com/microsoft/pylance-release/issues/3482)
+
+Pylance's copy of Pyright has been updated from 1.1.302 to 1.1.303.
+
+-   See Pyright's release notes for details: [1.1.303](https://github.com/microsoft/pyright/releases/tag/1.1.303)
+
+## 2023.4.20 (12 April 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.4.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023411-5-april-2023-prerelease) prerelease build.
+
+## 2023.4.11 (5 April 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Python 3.11 BaseExceptionGroup mistyped as ExceptionGroup [pylance-release#4183](https://github.com/microsoft/pylance-release/issues/4183)
+-   Bug fix: call does not always resolve when in map [pylance-release#4182](https://github.com/microsoft/pylance-release/issues/4182)
+-   Bug fix: Auto-import is suggesting completions from local files rather than library [pylance-release#4179](https://github.com/microsoft/pylance-release/issues/4179)
+-   Bug fix: Autocomplete places positional arguments after keyword arguments [pylance-release#4173](https://github.com/microsoft/pylance-release/issues/4173)
+-   Bug fix: Switching kernels in a notebook made pylance stop working [pylance-release#4166](https://github.com/microsoft/pylance-release/issues/4166)
+-   Bug fix: pylance randomly stopped recognizing used imports [pylance-release#4142](https://github.com/microsoft/pylance-release/issues/4142)
+-   Bug fix: Infinite loop in the chaining of files [pylance-release#4141](https://github.com/microsoft/pylance-release/issues/4141)
+-   Bug fix: The "Move symbol to ..." refactoring displaces trailing comments in the destination module (including `type: ignore`, etc.) [pylance-release#4136](https://github.com/microsoft/pylance-release/issues/4136)
+-   Bug fix: Rename on symbol in `from foo import foo` incorrectly updates module name [pylance-release#4129](https://github.com/microsoft/pylance-release/issues/4129)
+-   Enhancement: Change hover to only show the overload that applies. [pylance-release#3850](https://github.com/microsoft/pylance-release/issues/3850)
+
+Pylance's copy of Pyright has been updated from 1.1.301 to 1.1.302.
+
+-   See Pyright's release notes for details: [1.1.302](https://github.com/microsoft/pyright/releases/tag/1.1.302)
+
+## 2023.4.10 (5 April 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.3.41](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023341-29-march-2023-prerelease) prerelease build.
+
+## 2023.3.41 (29 March 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Crash within `getRegionCommentType` [pylance-release#4157](https://github.com/microsoft/pylance-release/issues/4157)
+-   Bug fix: intermittent "ClassName is incompatible with ClassName" [pylance-release#4151](https://github.com/microsoft/pylance-release/issues/4151)
+-   Bug fix: "suggestion details" in intellisense stopped showing on Ctrl+Space [pylance-release#4153](https://github.com/microsoft/pylance-release/issues/4153)
+-   Bug fix: autoimport stopped working when using workspaces [pylance-release#4144](https://github.com/microsoft/pylance-release/issues/4144)
+-   Bug fix: macOS toggleSuggestionDetails not working if Pylance is working [pylance-release#4145](https://github.com/microsoft/pylance-release/issues/4145)
+-   Bug fix: Autoimport from module, not directly from file [pylance-release#4065](https://github.com/microsoft/pylance-release/issues/4065)
+-   Bug fix: Auto parens happens for except clauses [pylance-release#3969](https://github.com/microsoft/pylance-release/issues/3969)
+-   Bug fix: Call Hierarchy always returns no results for function aliased via `import as` [pylance-release#3893](https://github.com/microsoft/pylance-release/issues/3893)
+-   Enhancement: `__slots__` not found on dataclass [pylance-release#4147](https://github.com/microsoft/pylance-release/issues/4147)
+
+Pylance's copy of Pyright has been updated from 1.1.300 to 1.1.301.
+
+-   See Pyright's release notes for details: [1.1.301](https://github.com/microsoft/pyright/releases/tag/1.1.301)
+
+## 2023.3.40 (29 March 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.3.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023331-22-march-2023-prerelease) prerelease build.
+
+## 2023.3.31 (22 March 2023) PreRelease
+
+Notable changes:
+
+-   Behavior change: Remove support for `python.linting.ignorePatterns` [pylance-release#4100](https://github.com/microsoft/pylance-release/issues/4100)
+-   Bug fix: add support for pulsar avro [pylance-release#4117](https://github.com/microsoft/pylance-release/issues/4117)
+-   Bug fix: dedent on `else` for an `if` statement that is followed by a `try` is incorrect [pylance-release#4050](https://github.com/microsoft/pylance-release/issues/4050)
+-   Enhancement: Added bundled stubs for lightgbm, networkx, and vispy
+-   Enhancement: Updated cv2, matplotlib, and sklearn stubs
+
+Pylance's copy of Pyright has been updated from 1.1.299 to 1.1.300.
+
+-   See Pyright's release notes for details: [1.1.300](https://github.com/microsoft/pyright/releases/tag/1.1.300)
+
+## 2023.3.30 (22 March 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through the [2023.3.25](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023325-17-march-2023-prerelease) prerelease build.
+
+## 2023.3.25 (17 March 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Hover over symbols without docstrings isn't rendered correctly [pylance-release#4082](https://github.com/microsoft/pylance-release/issues/4082)
+-   Bug fix: Language server crashing with `TypeError: this._token.cancel is not a function` [pylance-release#4055](https://github.com/microsoft/pylance-release/issues/4055)
+-   Bug fix: Pylance suggestions show indirect imports through files opened in the site-packages folder [pylance-release#3760](https://github.com/microsoft/pylance-release/issues/3760)
+
+Pylance's copy of Pyright remains on 1.1.299.
+
+-   See Pyright's release notes for details: [1.1.299](https://github.com/microsoft/pyright/releases/tag/1.1.299)
+
+## 2023.3.24 (17 March 2023) PreRelease
+
+Pylance's copy of Pyright remains on 1.1.299.
+
+-   See Pyright's release notes for details: [1.1.299](https://github.com/microsoft/pyright/releases/tag/1.1.299)
+-   Unreleased in Pyright, but included in Pylance:
+    -   Enhancement: Improved hover text for methods that are synthesized (e.g. the `get` method for TypedDict). This partly addresses https://github.com/microsoft/pylance-release/issues/4098.
+    -   Enhancement Added support for `clear` and `popitem` methods on TypedDict instance that is marked `@final` and has no required entries.
+    -   Bug fix: Fixed bug that resulted in a crash when user types `import` without a follow-on module name. This can happen in due corse of typing an import statement.
+    -   Performance: Changed the logic in the code flow engine so it never attempts to infer a NoReturn return type for a function that lacks a return type annotation. This results in a big speed improvement for some (unannotated) code bases, but it also produces somewhat inconsistent type evaluation results because a function whose type is inferred to be NoReturn by the type checker will not be treated as such if it is called elsewhere in the program.
+
+## 2023.3.23 (16 March 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Django. Several DoesNotExist exceptions not reached [pylance-release#3918](https://github.com/microsoft/pylance-release/issues/3918)
+
+Pylance's copy of Pyright remains on 1.1.299.
+
+-   See Pyright's release notes for details: [1.1.299](https://github.com/microsoft/pyright/releases/tag/1.1.299)
+-   Unreleased in Pyright, but included in Pylance:
+    -   Bug fix: Fixed regression that caused a crash in the presence of the illegal statement `import .`. This addresses [pylance-release#4778](https://github.com/microsoft/pyright/issues/4778).
+    -   Bug fix: Fixed bug that resulted in a false positive error relating to variance incompatibility.
+    -   Enhancement: Added new diagnostic check `reportImplicitOverride`.
+    -   Performance: Further improved perf when determining type compatibility of unions with many subtypes. This further reduces the analysis time of pydantic from 12s to 4s.
+    -   Performance: sped up type analyzer by 5-25% by caching types that have been converted to or from an instance. This drops the analysis time of pydantic from 17s to 12s.
+    -   Bug fix: Fixed regression that resulted in a false positive error when using an index expression form with a class whose metaclass supplies a `__getitem__` method when the expression is used as a runtime expression, as opposed to a type expression.
+
+## 2023.3.22 (15 March 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Type captured by wildcard pattern is partially unknown - Why? [pylance-release#4058](https://github.com/microsoft/pylance-release/issues/4058)
+-   Bug fix: Pytest intellisense doesn't work when using direct imports of `fixture, mark` [pylance-release#4039](https://github.com/microsoft/pylance-release/issues/4039)
+-   Bug fix: Enabling the Jupyter extension causes high CPU usage [pylance-release#4022](https://github.com/microsoft/pylance-release/issues/4022)
+-   Bug fix: Inappropriate type hint or obscured declaration error [pylance-release#3834](https://github.com/microsoft/pylance-release/issues/3834)
+-   Bug fix: Invalid Type Suggestion [pylance-release#3824](https://github.com/microsoft/pylance-release/issues/3824)
+-   Bug fix: Inlay Hints infills illegal return type hints on methods [pylance-release#3767](https://github.com/microsoft/pylance-release/issues/3767)
+-   Bug fix: Renaming in Jupyter notebooks only works in a single cell [pylance-release#3279](https://github.com/microsoft/pylance-release/issues/3279)
+
+Pylance's copy of Pyright has been updated from 1.1.298 to 1.1.299.
+
+-   See Pyright's release notes for details: [1.1.299](https://github.com/microsoft/pyright/releases/tag/1.1.299)
+
+## 2023.3.21 (8 March 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: In `functools.partial`, container of subclass is not recognized as container of baseclass [pylance-release#4044](https://github.com/microsoft/pylance-release/issues/4044)
+-   Bug fix: `__init__` docstring is ignored if `@overload` is used [pylance-release#4042](https://github.com/microsoft/pylance-release/issues/4042)
+-   Bug fix: Intellicode no longer works in Azure Notebooks [pylance-release#4032](https://github.com/microsoft/pylance-release/issues/4032)
+-   Enhancement: `match` `case` or `if` statements do not recognize `Literal` types [pylance-release#4005](https://github.com/microsoft/pylance-release/issues/4005)
+-   Enhancement: Autocomplete Keys for get method [pylance-release#3994](https://github.com/microsoft/pylance-release/issues/3994)
+
+Pylance's copy of Pyright has been updated from 1.1.296 to 1.1.298.
+
+-   See Pyright's release notes for details: [1.1.297](https://github.com/microsoft/pyright/releases/tag/1.1.297), [1.1.298](https://github.com/microsoft/pyright/releases/tag/1.1.298).
+
+## 2023.3.20 (8 March 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through version [2023.3.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023311-1-march-2023-prerelease) prerelease build.
+
+## 2023.3.11 (1 March 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: incomplete movement expression while Refactor -> Move symbol to [pylance-release#4018](https://github.com/microsoft/pylance-release/issues/4018)
+-   Bug fix: Keywords force completions to stop [pylance-release#3968](https://github.com/microsoft/pylance-release/issues/3968)
+-   Bug fix: quick fix places # type: ignore on wrong line. [pylance-release#3959](https://github.com/microsoft/pylance-release/issues/3959)
+-   Bug fix: Accepting refactor "type: ignore" puts newline in wrong spot [pylance-release#3858](https://github.com/microsoft/pylance-release/issues/3858)
+-   Bug fix: Inline docstrings for attributes don't show up unless docstring is on very next line [pylance-release#3769](https://github.com/microsoft/pylance-release/issues/3769)
+
+Pylance's copy of Pyright has been updated from 1.1.295 to 1.1.296.
+
+-   See Pyright's release notes for details: [1.1.296](https://github.com/microsoft/pyright/releases/tag/1.1.296).
+
+-   Unreleased in Pyright, but included in Pylance:
+    -   Bug fix: Fixed a bug that caused the variance for type parameters to be incorrectly inferred when an auto-variance class derived from a non-auto-variance class. This addresses [#4713](https://github.com/microsoft/pyright/issues/4713).
+    -   Enhancement: Performance optimization: reduced formatting of error messages in cases where it can be determined that they are not needed (e.g. in speculative evaluation code paths).
+    -   Enhancement: Declare workspaceFolders support in server capabilities (https://github.com/microsoft/pyright/pull/4666)
+    -   Bug fix: Added logic to detect when a type alias is used in a generic class declaration's base class list and a type parameter used with the type alias is incompatible with the variance required for the type alias. This addresses [#4699](https://github.com/microsoft/pyright/issues/4699).
+    -   Bug fix: Implemented missing check for generic type alias specialization when too few type arguments are provided. This addresses [#4709](https://github.com/microsoft/pyright/issues/4709).
+    -   Bug fix: Fixed a recent regression that resulted in an incorrect type evaluation when using a `__new__` method whose return type annotation is `Self`. This addresses [#4705](https://github.com/microsoft/pyright/issues/4705).
+    -   Bug fix: Fixed a bug that led to a false positive error when using the | operator with two dicts whose keys or values are defined as literals. This addresses part of [#4707](https://github.com/microsoft/pyright/issues/4707).
+
+## 2023.3.10 (1 March 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through version [2023.2.43](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023243-24-february-2023-prerelease) prerelease build.
+
+## 2023.2.43 (24 February 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Issues when moving symbol to a different file [pylance-release#4002](https://github.com/microsoft/pylance-release/issues/4002)
+-   Bug fix: Unexpected indent when pressing Enter at start of dedented line [pylance-release#3974](https://github.com/microsoft/pylance-release/issues/3974)
+
+## 2023.2.42 (23 February 2023) PreRelease
+
+Notable changes:
+
+-   Rollback changes for [pylance-release#4001](https://github.com/microsoft/pylance-release/discussions/4001). Fix broke imports of stubs.
+
+## 2023.2.41 (22 February 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Pytest fixtures that yield should show the yielded result [pylance-release#3973](https://github.com/microsoft/pylance-release/issues/3973)
+-   Bug fix: Missing syntax highlighting for multi variable declaration [pylance-release#3904](https://github.com/microsoft/pylance-release/issues/3904)
+-   Bug fix: Source directory hiding build directory in analysis and autocomplete [pylance-release#3429](https://github.com/microsoft/pylance-release/issues/3429)
+-   Enhancement: Updated pandas stubs.
+-   Enhancement: Updated typeshed.
+
+Pylance's copy of Pyright has been updated from 1.1.294 to 1.1.295.
+
+-   See Pyright's release notes for details: [1.1.295](https://github.com/microsoft/pyright/releases/tag/1.1.295).
+
+## 2023.2.40 (22 February 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through version [2022.2.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023231-15-february-2023-prerelease) prerelease build.
+
+## 2023.2.31 (15 February 2023) PreRelease
+
+Notable changes:
+
+-   Enhancement: Make "Fields without default values cannot appear after fields with default values" a toggle-able diagnostic rule [pylance-release#3939](https://github.com/microsoft/pylance-release/issues/3939)
+-   Bug fix: New partial typeshed tensorflow stubs break pylance for tensorflow [pylance-release#3937](https://github.com/microsoft/pylance-release/issues/3937)
+-   Bug fix: Pandas Dataframe.explode function parameter TypeError [pylance-release#3871](https://github.com/microsoft/pylance-release/issues/3871)
+-   Bug fix: Named parameter supports for PEP 692 [pylance-release#3868](https://github.com/microsoft/pylance-release/issues/3868)
+
+Pylance's copy of Pyright has been updated from 1.1.293 to 1.1.294.
+
+-   See Pyright's release notes for details: [1.1.294](https://github.com/microsoft/pyright/releases/tag/1.1.294).
+
+## 2023.2.30 (15 February 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through version [2022.2.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023221-8-february-2023-prerelease) prerelease build.
+
+## 2023.2.21 (8 February 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Empty kw only dataclass has incorrect type hint for `__init__` signature [pylance-release#3916](https://github.com/microsoft/pylance-release/issues/3916)
+-   Bug fix: Docstring of @property is not rendered correctly [pylance-release#3888](https://github.com/microsoft/pylance-release/issues/3888)
+
+Pylance's copy of Pyright has been updated from 1.1.292 to 1.1.293.
+
+-   See Pyright's release notes for details: [1.1.293](https://github.com/microsoft/pyright/releases/tag/1.1.293).
+
+## 2023.2.20 (8 February 2023) Release
+
+Notable changes:
+
+-   Release version that includes changes through version [2022.2.13](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023213-6-february-2023-prerelease) prerelease build.
+
+## 2023.2.13 (6 February 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Crash with multi-root workspace (pre-release) [pylance-release#3907](https://github.com/microsoft/pylance-release/issues/3907)
+
+## 2023.2.12 (2 February 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Performance regression with 2023.2.11 Pre-Release [pylance-release#3901](https://github.com/microsoft/pylance-release/issues/3901)
+-   Bug fix: VS Code + Pylance does not find venv-installed modules while venv is activated [pylance-release#3881](https://github.com/microsoft/pylance-release/issues/3881)
+-   Enhancement: Pylance does not provide source actions for removing unused imports or sorting imports inside Jupyter Notebooks [pylance-release#3175](https://github.com/microsoft/pylance-release/issues/3175)
+
+## 2023.2.11 (1 February 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Don't show `__future__` options in auto-import quick action [pylance-release#3882](https://github.com/microsoft/pylance-release/issues/3882)
+-   Bug fix: Syntax highlighting stop working after loading certain python files [pylance-release#3886](https://github.com/microsoft/pylance-release/issues/3886)
+-   Bug fix: No automatic parens with class types [pylance-release#3870](https://github.com/microsoft/pylance-release/issues/3870)
+-   Enhancement: semantic highlighting of cached_property [pylance-release#3742](https://github.com/microsoft/pylance-release/issues/3742)
+-   Enhancement: Improve pytest completions and goto def [pylance-release#3727](https://github.com/microsoft/pylance-release/issues/3727)
+-   Bug fix: `#region` nesting doesn't recognise last `#endregion` if there's no code after it at the end of the file on a non-"root" indent level [pylance-release#3290](https://github.com/microsoft/pylance-release/issues/3290)
+-   Bug fix: Commented code at the end of a method doesn't collapse with method [pylance-release#2321](https://github.com/microsoft/pylance-release/issues/2321)
+
+Pylance's copy of Pyright has been updated from 1.1.291 to 1.1.292.
+
+-   See Pyright's release notes for details: [1.1.292](https://github.com/microsoft/pyright/releases/tag/1.1.292).
+
+-   Unreleased in Pyright, but included in Pylance:
+    -   Bug Fix: Fixed a few typos in the pyright documentation.
+    -   Bug Fix: Fixed a bug that resulted in incorrect type evaluation when accessing instance methods directly from a `None` instance
+    -   Bug Fix: Fixed a regression that resulted in a crash when resolving overloads with different numbers of parameters and with with arguments that evaluate to `Any`
+
+## 2023.2.10 (1 February 2023) Release
+
+-   Release version that rolls up changes from the [2022.1.41](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023141-25-january-2023-prerelease) prerelease build.
+
+## 2023.1.41 (25 January 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Request textDocument/foldingRange failed. [pylance-release#3847](https://github.com/microsoft/pylance-release/issues/3847)
+-   Bug fix: Bad code insertion when typing Callable params as ellipsis [pylance-release#3841](https://github.com/microsoft/pylance-release/issues/3841)
+-   Enhancement: Add more fine-grained code action kinds for `refactor.extract` [pylance-release#3803](https://github.com/microsoft/pylance-release/issues/3803)
+
+Pylance's copy of Pyright has been updated from 1.1.290 to 1.1.291.
+
+-   See Pyright's release notes for details: [1.1.291](https://github.com/microsoft/pyright/releases/tag/1.1.291).
+
+## 2023.1.40 (25 January 2023) Release
+
+-   Release version that rolls up changes from the [2022.1.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023131-18-january-2023-prerelease) prerelease build.
+
+## 2023.1.31 (18 January 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Overly aggressive automatic indent on deeply nested list in a `@pytest.mark.parametrize()` call [pylance-release#3839](https://github.com/microsoft/pylance-release/issues/3839)
+-   Bug fix: No brackets autocompletion with python.analysis.completeFunctionParens set to true when python.languageServer is set to Pylance [pylance-release#3831](https://github.com/microsoft/pylance-release/issues/3831)
+-   Bug fix: PYTHONPATH isn't expanded like how python handles it [pylance-release#3823](https://github.com/microsoft/pylance-release/issues/3823)
+-   Bug fix: Django utils not found in auto import [pylance-release#3815](https://github.com/microsoft/pylance-release/issues/3815)
+-   Bug fix: `extraPaths` starting with `~/` on Linux are considered relative [pylance-release#3730](https://github.com/microsoft/pylance-release/issues/3730)
+-   Bug fix: Exclude map files from extension bundle [pylance-release#3647](https://github.com/microsoft/pylance-release/issues/3647)
+-   Bug fix: Exclude platform specific bits from extension bundle [pylance-release#3646](https://github.com/microsoft/pylance-release/issues/3646)
+
+Pylance's copy of Pyright has been updated from 1.1.288 to 1.1.290.
+
+-   See Pyright's release notes for details: [1.1.289](https://github.com/microsoft/pyright/releases/tag/1.1.289), [1.1.290](https://github.com/microsoft/pyright/releases/tag/1.1.290).
+
+-   Unreleased in Pyright, but included in Pylance:
+    -   Bug Fix: Fixed a bug in the constraint solver that led to unsolved type variables in the case where a `lambda x:x` was passed to a `Callable[[T], S]`.
+    -   Bug Fix: Fixed a bug that could lead to infinite type evaluation time when inferring the type of a tuple in a loop.
+    -   Bug Fix: When converting a class into a callable (by combining its **new** and `__init__` methods), capture the docstring of the constructor or class. This preserves docstrings when using a class decorator.
+
+## 2023.1.30 (18 January 2023) Release
+
+-   Release version that rolls up changes from the [2022.1.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023121-11-january-2023-prerelease) prerelease build.
+
+## 2023.1.21 (11 January 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: (Python) "Find All References" on any `__init__` shows every constructor for every class [pylance-release#3802](https://github.com/microsoft/pylance-release/issues/3802)
+-   Bug fix: Auto-indent behavior as before / jumping to beginning of line [pylance-release#3781](https://github.com/microsoft/pylance-release/issues/3781)
+-   Bug fix: No import suggestions for multi-root workspace with editable installs [pylance-release#3732](https://github.com/microsoft/pylance-release/issues/3732)
+
+Pylance's copy of Pyright has been updated from 1.1.287 to 1.1.288.
+
+-   See Pyright's release notes for details: [1.1.288](https://github.com/microsoft/pyright/releases/tag/1.1.288).
+
+## 2023.1.20 (11 January 2023) Release
+
+-   Release version that rolls up changes from the [2022.1.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#2023111-4-january-2023-prerelease) prerelease build.
+
+## 2023.1.11 (4 January 2023) PreRelease
+
+Notable changes:
+
+-   Bug fix: Any comment that contains the word "region" triggers an error "#region is missing corresponding #endregion" [pylance-release#3765](https://github.com/microsoft/pylance-release/issues/3765)
+-   Bug fix: Pyright parser causes tests failures [pylance-release#3761](https://github.com/microsoft/pylance-release/issues/3761)
+-   Bug fix: Provide doc string for module in "import statement" completion [pylance-release#3721](https://github.com/microsoft/pylance-release/issues/3721)
+-   Bug fix: Python intellisense is very slow [pylance-release#3668](https://github.com/microsoft/pylance-release/issues/3668)
+-   Bug fix: option to exclude some auto-import options [pylance-release#3466](https://github.com/microsoft/pylance-release/issues/3466)
+
+Pylance's copy of Pyright has been updated from 1.1.283 to 1.1.287.
+
+-   See Pyright's release notes for details: [1.1.287](https://github.com/microsoft/pyright/releases/tag/1.1.287), [1.1.286](https://github.com/microsoft/pyright/releases/tag/1.1.286), [1.1.285](https://github.com/microsoft/pyright/releases/tag/1.1.285), [1.1.284](https://github.com/microsoft/pyright/releases/tag/1.1.284).
+
+## 2023.1.10 (4 January 2023) Release
+
+-   Release version that rolls up changes from the [2022.12.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221221-7-december-2022-prerelease) prerelease build.
+
+## 2022.12.21 (7 December 2022) PreRelease
+
+Notable changes:
+
+-   Bug fix: Incorrect ShadowedImports warning on relative '.' import [pylance-release#3725](https://github.com/microsoft/pylance-release/issues/3725)
+-   Bug fix: `source.unusedImports` is very slow and adds unnecessary whitespace [pylance-release#3715](https://github.com/microsoft/pylance-release/issues/3715)
+-   Bug fix: Bad autocomplete when typing an open square bracket [pylance-release#3651](https://github.com/microsoft/pylance-release/issues/3651)
+-   Bug fix: Module docstrings have inconsistent behaviour on hover [pylance-release#3636](https://github.com/microsoft/pylance-release/issues/3636)
+
+## 2022.12.20 (7 December 2022) Release
+
+-   Release version that rolls up changes from the [2022.12.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221211-1-december-2022-prerelease) prerelease build.
+
+## 2022.12.11 (1 December 2022) PreRelease
+
+Notable changes:
+
+-   Bug fix: google.cloud namespace package imports fail as of 1.1.282 [pyright#4255](https://github.com/microsoft/pyright/issues/4255)
+-   Bug fix: Option to set python.analysis.packageIndexDepths depth globally [pylance-release#3678](https://github.com/microsoft/pylance-release/issues/3678)
+
+## 2022.11.41 (30 November 2022) PreRelease
+
+Notable changes:
+
+-   Enhancement: Dict Key Literal Autocompletion does not work with Attributes [pylance-release#3687](https://github.com/microsoft/pylance-release/issues/3687)
+-   Bug fix: Auto-indent fails to break out of nested context [pylance-release#3686](https://github.com/microsoft/pylance-release/issues/3686)
+-   Bug fix: Incorrectly Flagged child dataclass "Fields without default values cannot appear after fields with default values" [pylance-release#3676](https://github.com/microsoft/pylance-release/issues/3676)
+-   Enhancement: Feature Request: Auto import should suggest all symbols in your project [pylance-release#3670](https://github.com/microsoft/pylance-release/issues/3670)
+-   Bug fix: Semantic highlighting broken [pylance-release#3667](https://github.com/microsoft/pylance-release/issues/3667)
+-   Enhancement: Flag indentation error without invalidating rest of file [pylance-release#3656](https://github.com/microsoft/pylance-release/issues/3656)
+-   Bug fix: `TypeAlias` forward reference results in `Unknown` [pylance-release#3654](https://github.com/microsoft/pylance-release/issues/3654)
+-   Bug fix: Linting disappeares when using multiple folders in workspace [pylance-release#3652](https://github.com/microsoft/pylance-release/issues/3652)
+-   Bug fix: Massive performance issues for all Pylance features in some projects [pylance-release#3632](https://github.com/microsoft/pylance-release/issues/3632)
+-   Enhancement: Inappropriate type error with docstrings [pylance-release#3612](https://github.com/microsoft/pylance-release/issues/3612)
+-   Bug fix: How to prevent autocomplete of type hints [pylance-release#3599](https://github.com/microsoft/pylance-release/issues/3599)
+-   Bug fix: RPyC Python module description looks strange [pylance-release#3549](https://github.com/microsoft/pylance-release/issues/3549)
+-   Bug fix: `Add "# type: ignore" to suppress warning` places comment in wrong place [pylance-release#3544](https://github.com/microsoft/pylance-release/issues/3544)
+-   Bug fix: Bug template url gives 404 message [pylance-release#3497](https://github.com/microsoft/pylance-release/issues/3497)
+-   Bug fix: Bug on Pylance 2022.9.40 (released Sept 28, 2022) [pylance-release#3401](https://github.com/microsoft/pylance-release/issues/3401)
+-   Enhancement: Emit warning for unmatched `#region`/`#endregion` [pylance-release#3308](https://github.com/microsoft/pylance-release/issues/3308)
+-   Bug fix: lsp notebooks and jupyter.runStartupCommands [pylance-release#3219](https://github.com/microsoft/pylance-release/issues/3219)
+
+## 2022.11.40 (30 November 2022) Release
+
+-   Release version that rolls up changes from the [2022.11.32](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221132-16-november-2022-prerelease) prerelease build.
+
+## 2022.11.32 (16 November 2022) PreRelease
+
+Notable changes:
+
+-   Bug fix: Don't treat empty open file as closed file.
+
+## 2022.11.31 (16 November 2022) PreRelease
+
+Notable changes:
+
+-   Enhancement: Support for hint in inline `if` statement [pylance-release#3635](https://github.com/microsoft/pylance-release/issues/3635)
+-   Bug fix: Update Pylance details displayed in VS Code [pylance-release#3626](https://github.com/microsoft/pylance-release/issues/3626)
+-   Bug fix: Ensure folded function names are visible in Visual Studio [pylance-release#3580](https://github.com/microsoft/pylance-release/issues/3580)
+-   Bug fix: Last expression in notebook cell should not be marked as unused [pylance-release#3282](https://github.com/microsoft/pylance-release/issues/3282)
+-   Bug fix: Second declarations of from imports are marked as not defined [pylance-release#3218](https://github.com/microsoft/pylance-release/issues/3218)
+-   Bug fix: Fix all can be customized and support pyright ignore on unused code [pylance-release#3144](https://github.com/microsoft/pylance-release/issues/3144)
+
+Pylance's copy of Pyright has been updated from 1.1.279 to 1.1.280.
+
+-   See Pyright's release notes for details: [1.1.280](https://github.com/microsoft/pyright/releases/tag/1.1.280).
+
+## 2022.11.30 (16 November 2022) Release
+
+-   Release version that rolls up changes from the [2022.11.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221121-9-november-2022-prerelease) prerelease build.
+
+## 2022.11.21 (9 November 2022) PreRelease
+
+Notable changes:
+
+-   Bug fix: Fix Diagnostic links to jump straight into Pyright's documentation [pylance-release#3589](https://github.com/microsoft/pylance-release/issues/3589)
+-   Bug fix: Parameters for a TypedDict don't show on hover [pylance-release#3569](https://github.com/microsoft/pylance-release/issues/3569)
+-   Bug fix: Diagnostics in a notebook are not removed when changing language [pylance-release#3555](https://github.com/microsoft/pylance-release/issues/3555)
+-   Bug fix: Parmeter hints not working with a child class attribute [pylance-release#3512](https://github.com/microsoft/pylance-release/issues/3512)
+-   Bug fix: Rename fails in untitled notebook or untitled python file [pylance-release#3276](https://github.com/microsoft/pylance-release/issues/3276)
+-   Bug fix: UNC paths are not parsed correctly [pylance-release#2891](https://github.com/microsoft/pylance-release/issues/2891)
+
+Pylance's copy of Pyright has been updated from 1.1.278 to 1.1.279.
+
+-   See Pyright's release notes for details: [1.1.279](https://github.com/microsoft/pyright/releases/tag/1.1.279).
+
+## 2022.11.20 (9 November 2022) Release
+
+-   Release version that rolls up changes from the [2022.11.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221111-2-november-2022-prerelease) prerelease build.
+
+## 2022.11.11 (2 November 2022) PreRelease
+
+Notable changes:
+
+-   Bug fix: fix django CharField signature mismatch base class Field's init vs CharField's new function [pylance-release#3431](https://github.com/microsoft/pylance-release/issues/3431)
+-   Bug fix: Fix parens for extract [pylance-release#1768](https://github.com/microsoft/pylance-release/issues/1768)
+-   Bug fix: Fix type alias doc strings [pylance-release#3402](https://github.com/microsoft/pylance-release/issues/3402)
+-   Bug fix: Fix crash when indexing is enabled. [pylance-release#3510](https://github.com/microsoft/pylance-release/issues/3510)
+
+Pylance's copy of Pyright has been updated from 1.1.277 to 1.1.278.
+
+-   See Pyright's release notes for details: [1.1.278](https://github.com/microsoft/pyright/releases/tag/1.1.278).
+
+## 2022.11.10 (1 November 2022) Release
+
+-   Release version that rolls up changes from the [2022.10.41](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221041-26-october-2022-prerelease) prerelease build.
+
+## 2022.10.41 (26 October 2022) PreRelease
+
+Notable changes:
+
+-   Bug Fix: Fixed source mapper perf issue. ([pylance-release#3513](https://github.com/microsoft/pylance-release/issues/3513))
+-   Bug Fix: Fixed crash on notebook cell reordering. ([pylance-release#3433](https://github.com/microsoft/pylance-release/issues/3433))
+-   Enhancement: Changed auto import default to off. ([pylance-release#3467](https://github.com/microsoft/pylance-release/issues/3467))
+-   Enhancement: Updated pandas stubs.
+-   Enhancement: Updated typeshed.
+
+Pylance's copy of Pyright has been updated from 1.1.276 to 1.1.277.
+
+-   See Pyright's release notes for details: [1.1.277](https://github.com/microsoft/pyright/releases/tag/1.1.277).
+
+## 2022.10.40 (26 October 2022) Release
+
+-   Release version that rolls up changes from the [2022.10.31](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221021-19-october-2022-prerelease) prerelease build.
+
+## 2022.10.31 (19 October 2022) PreRelease
+
+Notable changes:
+
+-   Bug Fix: Fixed a crash due to notebook cell reordering. ([pylance-release#3469](https://github.com/microsoft/pylance-release/issues/3469))
+-   Bug Fix: Don't disable type checking mode for notebooks that don't exist on disk. ([pylance-release#3412](https://github.com/microsoft/pylance-release/issues/3412))
+-   Enhancement: Improved smart selection behavior to include argument lists. ([pylance-release#3301](https://github.com/microsoft/pylance-release/issues/3301))
+-   Enhancement: Improved doc string formatter to handle cv2 style doc string better. ([pylance-release#2945](https://github.com/microsoft/pylance-release/issues/2945))
+-   Enhancement: Updated pandas stubs
+
+Pylance's copy of Pyright has been updated from 1.1.275 to 1.1.276.
+
+-   See Pyright's release notes for details: [1.1.276](https://github.com/microsoft/pyright/releases/tag/1.1.276).
+
+## 2022.10.30 (19 October 2022) Release
+
+-   Release version that rolls up changes from the [2022.10.21](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221021-12-october-2022-prerelease) prerelease build.
+
+## 2022.10.21 (12 October 2022) PreRelease
+
+Notable changes:
+
+-   Bug Fix: Fixed a crash due to LSP type mismatch. ([pylance-release#3453](https://github.com/microsoft/pylance-release/issues/3453))
+-   Bug Fix: Fixed behavior of `__init__` parameter synthesis when `dataclass_transform` is applied to a base class. ([pylance-release#3304](https://github.com/microsoft/pylance-release/issues/3304))
+-   Enhancement: Improved `go to definition` behavior when multiple `pyi` are used for 1 `py` file. ([pylance-release#3227](https://github.com/microsoft/pylance-release/issues/3227))
+-   Enhancement: Updated pandas stubs
+-   Enhancement: Updated matplotlib stubs
+-   Enhancement: New setting `python.analysis.packageIndexDepths` is added. User can use the setting to control indexing behavior.
+
+Pylance's copy of Pyright has been updated from 1.1.274 to 1.1.275.
+
+-   See Pyright's release notes for details: [1.1.275](https://github.com/microsoft/pyright/releases/tag/1.1.275).
+
+## 2022.10.20 (12 October 2022) Release
+
+-   Release version that rolls up changes from the [2022.10.11](https://github.com/microsoft/pylance-release/blob/main/CHANGELOG.md#20221011-5-october-2022-prerelease) prerelease build.
+
 ## 2022.10.11 (5 October 2022) PreRelease
 
 Notable changes:
